@@ -1,3 +1,11 @@
+:root {
+  --heading-title-color: #293241;
+  --main-bg-color: #f8f8f8;
+  --secondary-bg-color:#e2eafc;
+  --btn-bg-color: #184e77;
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +13,54 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--main-bg-color);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+h5, h3{
+  color: var(--heading-title-color);
+}
+
+.newsletter-card{
+  background-color: var(--secondary-bg-color);
+}
+
+.newsletter-inp,
+.search-inp{
+  height: 40px;
+  width: 340px;
+  color: #4d4d4d;
+}
+
+a{
+  color: var(--btn-bg-color);
+}
+
+.btn{
+  background-color: var(--btn-bg-color);
+}
+
+.detail-post-thumbnail{
+  height: 450px;
+  width:100% ;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  .newsletter-inp,
+  .search-inp{
+      width: 100%;
+  }
+
+
+  .detail-post-thumbnail{
+      height: 205px;
+      width:100% ;
+  }
+
 }
