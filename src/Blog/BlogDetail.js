@@ -34,25 +34,38 @@ const BlogDetail = (props) => {
     return (
         <div className="container">
             
-            <div class="col-md-9 col-12 m-auto">
+            <div class="col-md-8 m-auto py-5">
 
-                { loading ? (
-                        <div class="col-12 my-5 text-center">
-                            <h5>loading ...</h5>
+            { loading ? (
+                  <div class="col-12 my-5 text-center">
+                      <p className="post-body">loading ...</p>
+                  </div>
+              ):(
+                  <div>
+                     
+
+                      {/* <img src="{post.thumbnail}" className="mb-md-5 post-thumbnail" alt="{post.thumbnail}" /> */}
+
+                      <div class="col-md-10 m-auto">
+                        <h1 class="my-4 post-title">{post.title}</h1>
+                        <span class="text-muted post-meta">Published by Sachin Sharma on {moment(post.timestamp).format('MMMM D, YYYY')}</span>
+                        
+                        <div class="my-4 post-body">
+                          <div className='post-body' dangerouslySetInnerHTML={sanitizeBody()} />              
                         </div>
-                    ):(
-                        <div class="p-2 my-4">
-                            {/* <img src={post.thumbnail} alt={post.title} class="mb-3 detail-post-thumbnail" /> */}
-                            <h2>{post.title}</h2>
-                            <p class="text-muted">Published by <b>Sachin Sharma</b> on {moment(post.timestamp).format('MMMM D, YYYY')}</p>
-                            <a class="btn btn-sm btn-primary px-3" href={`https://twitter.com/share?url=https://sachinsblog.in/${post.slug}`} target="blank">Twitter</a> &nbsp;
-                            <a class="btn btn-sm btn-primary px-3" href={`https://www.facebook.com/sharer/sharer.php?u=https://sachinsblog.in/${post.slug}`} target="blank">Facebook</a>
-                            <div class="my-4">
-                                <div className='post-body' dangerouslySetInnerHTML={sanitizeBody()} />
-                            </div>
+                        
+
+                        <div class="mt-md-5">
+                            <a class="btn btn-primary px-3 border-0" href={`https://twitter.com/share?url=https://sachinsblog.in/${post.slug}`} target="blank">Twitter</a> &nbsp;
+                            <a class="btn btn-primary px-3 border-0" href={`https://www.facebook.com/sharer/sharer.php?u=https://sachinsblog.in/${post.slug}`} target="blank">Facebook</a>
                         </div>
-                    )
-                }
+                      
+
+                    </div>
+
+                  </div>
+              )
+          }
                 
             </div>
 

@@ -47,7 +47,7 @@ const BlogContainer = () => {
             <div className="mb-5">
                 <div class="row">
                     <div class="col-12 mb-3">
-                        <h5>Latest Posts</h5>
+                        <h4>Latest Posts</h4>
                     </div>
 
                     <PostCard 

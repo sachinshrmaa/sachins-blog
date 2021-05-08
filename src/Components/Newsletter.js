@@ -4,7 +4,7 @@ const Newsletter = () => {
     return (
         <div class="col-12 rounded newsletter-card py-5 text-center">
             <div class="col-md-9 col-11 m-auto">
-                <h3>Join Newsletter</h3>
+                <h3 className="mb-4">Join Newsletter</h3>
                 <p class="text-muted">Exploring & Sharing the things I'm learning from life, work, books and travel. Join my weekly newsletter to be an insider & making sure you don't miss anything.</p>
 
 

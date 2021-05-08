@@ -81,13 +81,13 @@ const BlogSearch = () => {
             <div class="bg-white p-4 rounded">
                 <div class="row">
                     <div class="col-md-6 col-12">
-                        <h5 class="mb-3">Search</h5>
+                        <h4 class="mb-3">Search</h4>
                         <input type="text" class="search-inp border-0 rounded px-2 bg-light" placeholder="Search Sachins Blog" onChange={(e) => setQuery(e.target.value)} /> &nbsp;
                         <button class="btn text-white px-3 py-2 mt-2 mt-md-0" onClick={handleSearch}>Search</button>
                     </div>
 
                     <div class="col-md-2 col-12 mt-4 mt-md-0 pl-md-5">
-                        <h5 class="mb-3">Filter</h5>
+                        <h4 class="mb-3">Filter</h4>
                         <div class="dropdown">
                             <button class="btn btn-secondary dropdown-toggle py-2" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                             Category
