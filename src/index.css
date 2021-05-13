@@ -42,13 +42,13 @@ a{
 
 
 
-h5{
+/* h5{
   font-weight: 700 ;
   font-size: 36px;
   line-height: 20px;
   color: var(--text-color);
   font-family: 'Rubik', sans-serif;
-}
+} */
 
 .post-card-title{
   font-size: 20px;
