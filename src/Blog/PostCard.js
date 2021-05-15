@@ -13,19 +13,19 @@ const PostCard = ({posts, loading}) => {
     if(loading){
         return(
             <div class="col-12 mt-4 text-center">
-                <p className="post-body">loading...</p>
+                <p>loading...</p>
             </div> 
         )
     }
 
     return(posts.map(post => {
         return(
-            <div class="col-md-4 my-3">
+            <div class="col-md-4 my-3" key={post.id}>
                 <Link to={`/${post.slug}`} class="text-decoration-none text-dark" >                    <div class="card border-0">
                     {/* <img src={post.thumbnail} class="card-img-top" alt={post.title} /> */}
                     <div class="card-body">
-                        <h5 class="post-card-title">{post.title}</h5> 
-                        <div className="post-card-body" dangerouslySetInnerHTML={{__html: truncatePost(post.content)}} />
+                        <h5>{post.title}</h5> 
+                        <div dangerouslySetInnerHTML={{__html: truncatePost(post.content)}} />
                         <small className="text-muted">{moment(post.timestamp).format('MMMM D, YYYY')}</small>
                     </div>
                 </div>

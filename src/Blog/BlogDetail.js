@@ -38,7 +38,7 @@ const BlogDetail = (props) => {
 
             { loading ? (
                   <div class="col-12 my-5 text-center">
-                      <p className="post-body">loading ...</p>
+                      <p>loading ...</p>
                   </div>
               ):(
                   <div>
@@ -47,11 +47,11 @@ const BlogDetail = (props) => {
                       {/* <img src="{post.thumbnail}" className="mb-md-5 post-thumbnail" alt="{post.thumbnail}" /> */}
 
                       <div class="col-md-10 m-auto">
-                        <h1 class="my-4 post-title">{post.title}</h1>
-                        <span class="text-muted post-meta">Published by Sachin Sharma on {moment(post.timestamp).format('MMMM D, YYYY')}</span>
+                        <h1 class="my-4 ">{post.title}</h1>
+                        <span class="text-muted">Published by Sachin Sharma on {moment(post.timestamp).format('MMMM D, YYYY')}</span>
                         
-                        <div class="my-4 post-body">
-                          <div className='post-body' dangerouslySetInnerHTML={sanitizeBody()} />              
+                        <div class="my-4">
+                          <div dangerouslySetInnerHTML={sanitizeBody()} />              
                         </div>
                         
 

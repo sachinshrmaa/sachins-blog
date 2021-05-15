@@ -89,7 +89,7 @@ const BlogSearch = () => {
                     <div class="col-md-2 col-12 mt-4 mt-md-0 pl-md-5">
                         <h4 class="mb-3">Filter</h4>
                         <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle py-2" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <button class="btn dropdown-toggle py-2" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                             Category
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">

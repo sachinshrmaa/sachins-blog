@@ -6,7 +6,7 @@ const NavBar = () => {
     return (
         <nav class="navbar navbar-light bg-white">
             <div class="container">
-                <Link to="/" className="navbar-brand">Sachins Blog</Link>
+                <Link to="/" className="navbar-brand" id="logo">Sachins Blog</Link>
                 <div class="navbar p-0">
                     <Link to="/search" className="nav-link text-dark">    
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
