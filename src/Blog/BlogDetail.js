@@ -48,7 +48,7 @@ const BlogDetail = (props) => {
 
                       <div class="col-md-10 m-auto">
                         <h1 class="my-4 ">{post.title}</h1>
-                        <span class="text-muted">Published by Sachin Sharma on {moment(post.timestamp).format('MMMM D, YYYY')}</span>
+                        <span class="text-muted">Published on {moment(post.timestamp).format('MMMM D, YYYY')}</span>
                         
                         <div class="my-4">
                           <div dangerouslySetInnerHTML={sanitizeBody()} />              

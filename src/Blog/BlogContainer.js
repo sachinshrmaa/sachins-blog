@@ -84,7 +84,6 @@ const BlogContainer = () => {
 
             </div>
 
-
             <div class="row my-5 py-3">
 
                 <div class="row d-flex mb-4">
@@ -96,12 +95,13 @@ const BlogContainer = () => {
                     </div>
                 </div>
 
+                
                 <RelatedPosts 
                     posts={posts} 
                     category={"Climate Change"}
                     loading={loading}
-                    />
-
+                />
+                
             </div>
             
         </div>

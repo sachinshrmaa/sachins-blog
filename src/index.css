@@ -21,6 +21,7 @@ body{
 
 a, .nav-link{
   color: var(--primary);
+  text-decoration: none;
 }
 
 .btn{

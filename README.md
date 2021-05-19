@@ -3,15 +3,16 @@
 
 ### About Me
 
-If you are reading this, thanks for being here - My name is Sachin Sharma and I'm a final year computer science student by day and a curious boy by night ( who loves to read, write, travel and explore stuffs).
+My name is Sachin Sharma and I'm a final year computer science student and I spend my free time reading books, writing journals, trying to design fun software, and trying to explore stuffs.
+
 
 ### Sachins Blog
 
-[Sachin Blog](https://sachinsblog.in) is the place where I document everything and share it with the world.
+[Sachin Blog](https://www.sachinsblog.in) is the place where I document everything and share it with the world.
 
 In case you were wondering, this site is:
 
-* Designed and coded by Sachin on a Linux in India
+* Designed and coded by Sachin on a Linux
 * Coded with Visual Studio Code
 * Built with React and Django REST Framework
 * Hosted on GitHub Pages and AWS
