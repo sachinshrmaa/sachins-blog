@@ -5,7 +5,6 @@ import Pagination from '../Components/Pagination'
 import PostCard from './PostCard';
 
 
-
 const BlogSearch = () => {
 
     const [query, setQuery] = useState('')
@@ -122,6 +121,7 @@ const BlogSearch = () => {
             </div>
 
             <Newsletter />
+
 
         </div>
     )

@@ -3,9 +3,9 @@ import React, { useEffect, useState} from 'react'
 
 
 import Pagination from '../Components/Pagination'
-import PostCard from './PostCard';
+import PostCard from './PostCard'
 import Newsletter from '../Components/Newsletter'
-import RelatedPosts from './RelatedPosts';
+import RelatedPosts from './RelatedPosts'
 
 
 
@@ -59,6 +59,7 @@ const BlogContainer = () => {
                             paginate={paginate}
                         />  
                     </div>
+
 
                     <Newsletter />
 

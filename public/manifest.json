@@ -1,9 +1,9 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Sachins Blog",
+  "name": "The Blog of Sachin Sharma",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "sachinsblog.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     }
