@@ -7,7 +7,12 @@ const About = () => {
         <div class="col-md-6 m-auto col-11">
         <div class="my-md-4 py-md-4 my-4 py-3">
 
-            <img src={myPicture} className="my-picture" />
+            <figure>
+                <img src={myPicture} className="my-picture" alt="Sachins Blog" />
+                <figcaption className="text-center mt-2 text-muted"><small>me sitting on a railing in Kurseong, West Bengal (Feb, 2021)</small></figcaption>
+            </figure>
+
+            
             
             <h3 class="my-4">About Me</h3>
             <p>My name is Sachin Sharma and I'm a final year computer science student and I spend my free time reading books, writing journals, trying to design fun software, and explore new stuffs.</p>

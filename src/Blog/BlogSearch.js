@@ -60,7 +60,7 @@ const BlogSearch = () => {
             loadingSpinner = <span>loading...</span>
         }
         return(postCategories.map(category => (
-            <li><a class="dropdown-item" key={category} onClick={() => handleFiltering(category)}> { loading ? loadingSpinner : category}</a></li> 
+            <li><a class="dropdown-item" key={category} onClick={() => handleFiltering(category)}> { loading ? loadingSpinner : category} </a></li> 
         )))
     }
 
