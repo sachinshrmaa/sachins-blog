@@ -1,7 +1,6 @@
 import axios from 'axios'
 import moment from 'moment'
 import React, {useState, useEffect} from 'react'
-import AdSense from 'react-adsense';
 
 import Newsletter from '../Components/Newsletter'
 
@@ -70,17 +69,7 @@ const BlogDetail = (props) => {
                 
             </div>
 
-            <AdSense.Google
-                className='adsbygoogle'
-                client='ca-pub-9118969176368238'
-                slot='6014314555'
-                format='auto'
-                style={{ display: 'block' }}
-                responsive='true'
-                
-            />
-
-
+          
             <Newsletter />
         </div>
     )
