@@ -1,10 +1,15 @@
 import React from 'react'
+import myPicture from './sachin.jpg'
+
 
 const About = () => {
     return (
         <div class="col-md-6 m-auto col-11">
-        <div class="my-md-5 py-md-5 my-4 py-3">
-            <h3 class="mb-4">About Me</h3>
+        <div class="my-md-4 py-md-4 my-4 py-3">
+
+            <img src={myPicture} className="my-picture" />
+            
+            <h3 class="my-4">About Me</h3>
             <p>My name is Sachin Sharma and I'm a final year computer science student and I spend my free time reading books, writing journals, trying to design fun software, and explore new stuffs.</p>
 
             <div class="py-5">

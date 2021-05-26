@@ -51,10 +51,21 @@ a, .nav-link{
 }
 
 
+.my-picture{
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
 
 
 @media only screen and (max-width: 600px) {
   .search-inp{
       width: 100%;
   } 
+
+  .my-picture{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+  }
 }
