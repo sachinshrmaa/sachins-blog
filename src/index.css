@@ -51,10 +51,14 @@ a, .nav-link{
 }
 
 
-.my-picture{
+.my-picture, .post-thumbnail{
   height: 400px;
   width: 100%;
   object-fit: cover;
+}
+
+.post-thumbnail{
+  object-position: 50%;
 }
 
 

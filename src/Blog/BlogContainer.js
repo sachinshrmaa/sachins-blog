@@ -34,7 +34,7 @@ const BlogContainer = () => {
 
     const fetchData = async () => {
         setLoading(true)
-        const res = await axios.get('https://api-sachinsblog.herokuapp.com/api/posts/')
+        const res = await axios.get('http://65.0.109.237/api/posts')
         setPosts(res.data)
         setLoading(false)
     }

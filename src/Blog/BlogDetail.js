@@ -16,7 +16,7 @@ const BlogDetail = (props) => {
 
     const fetchPosts = async () => {
         setLoadingRelated(true)
-        const res = await axios.get('https://api-sachinsblog.herokuapp.com/api/posts/')
+        const res = await axios.get('http://65.0.109.237/api/posts/')
         setPosts(res.data)
         setLoadingRelated(false)
     }
@@ -26,7 +26,7 @@ const BlogDetail = (props) => {
 
         const fetchData = async () => {
             setLoading(true)
-            const res = await axios.get(`https://api-sachinsblog.herokuapp.com/api/posts/${slug}`)
+            const res = await axios.get(`http://65.0.109.237/api/posts/${slug}`)
             setPost(res.data)
             setLoading(false)
         }
@@ -55,14 +55,14 @@ const BlogDetail = (props) => {
                   <div>
                      
 
-                      {/* <img src="{post.thumbnail}" className="mb-md-5 post-thumbnail" alt="{post.thumbnail}" /> */}
+                      <img src={post.thumbnail} className="mb-3 post-thumbnail" alt={post.thumbnail} />
 
                       <div class="col-md-10 m-auto">
                         <h1 class="my-4 ">{post.title}</h1>
 
                         <div class="row d-flex ">
                             <div class="d-flex justify-content-between align-items-center  m-0">
-                            <span className="text-muted">Published on {moment(post.timestamp).format('MMMM D, YYYY')}</span>
+                            <span className="text-muted">Posted on {moment(post.timestamp).format('MMMM D, YYYY')}</span>
 
                             <ul class="nav justify-content-center m-0">
                                 <li class="nav-item">
@@ -111,7 +111,6 @@ const BlogDetail = (props) => {
                         posts={posts} 
                         category={post.category}
                         loading={loadingRelated}
-                        currentPost={post}
                     />
                     
                 </div>
