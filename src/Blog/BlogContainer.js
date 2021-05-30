@@ -5,7 +5,6 @@ import React, { useEffect, useState} from 'react'
 import Pagination from '../Components/Pagination'
 import PostCard from './PostCard'
 import Newsletter from '../Components/Newsletter'
-import RelatedPosts from './RelatedPosts'
 
 
 
@@ -34,7 +33,7 @@ const BlogContainer = () => {
 
     const fetchData = async () => {
         setLoading(true)
-        const res = await axios.get('http://65.0.109.237/api/posts')
+        const res = await axios.get('https://api.sachinsblog.in/api/posts')
         setPosts(res.data)
         setLoading(false)
     }

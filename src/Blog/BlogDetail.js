@@ -16,7 +16,7 @@ const BlogDetail = (props) => {
 
     const fetchPosts = async () => {
         setLoadingRelated(true)
-        const res = await axios.get('http://65.0.109.237/api/posts/')
+        const res = await axios.get('https://api.sachinsblog.in/api/posts')
         setPosts(res.data)
         setLoadingRelated(false)
     }
@@ -26,7 +26,7 @@ const BlogDetail = (props) => {
 
         const fetchData = async () => {
             setLoading(true)
-            const res = await axios.get(`http://65.0.109.237/api/posts/${slug}`)
+            const res = await axios.get(`https://api.sachinsblog.in/api/posts/${slug}`)
             setPost(res.data)
             setLoading(false)
         }
@@ -40,6 +40,8 @@ const BlogDetail = (props) => {
     const sanitizeBody = () => {
         return {__html: post.content}
     };
+
+    
 
 
     return (
@@ -86,7 +88,7 @@ const BlogDetail = (props) => {
 
                         
                         <div class="mt-4 mb-5">
-                          <div dangerouslySetInnerHTML={sanitizeBody()} />              
+                          <div dangerouslySetInnerHTML={sanitizeBody()} /> 
                         </div>
                         
                     </div>
