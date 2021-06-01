@@ -19,7 +19,15 @@ const About = () => {
 
             <div class="py-5">
                 <h3 class="mb-4">Sachins Blog</h3>
-                <p>This is the place where I document everything and share it with the world.</p>
+                
+                <p>C Wright Mills the great sociologist, once said -- As a social scientist, you have to capture what you experience and sort it out; only in this way can you hope to use it to guide and test your reflection, and in the process shape yourself as an intellectual craftsman. But how can you do this? One answer is: you must set up a blog!</p>
+
+                <p>Actually, he called it a “file” instead of a blog, but the point remains the same: becoming a scientific thinker requires practice and writing is a powerful aid to reflection.</p>
+
+                <p>So that’s what Sachins blog is. I write here about thoughts I have, things I’m working on, stuff I’ve read, experiences I’ve had, and so on. Whenever a thought crystalizes in my head, I type it up and post it here.</p>
+
+                <p>I don’t consider this writing, I consider this thinking. I like sharing my thoughts and I like hearing yours too. ( <i><a href="https://twitter.com/sachinshrmaa">Twitter</a> is where you can find me </i>)</p>
+
                 <p>In case you were wondering, this site is:</p>
                 
                 <ul>
