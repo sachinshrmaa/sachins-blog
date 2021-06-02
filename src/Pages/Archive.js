@@ -37,7 +37,6 @@ const Archive = () => {
 
             <div className="mt-5">
                 {loading ? loadingSpinner : displayPosts() }
-                {/* {displayPosts()} */}
             </div>            
             
         </div>

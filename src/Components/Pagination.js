@@ -7,17 +7,26 @@ const Pagination = ({ postsPerPage, totalPosts, paginate }) => {
     pageNumbers.push(i);
   }
 
+  
+  const paginateCondition = () => {
+    if (totalPosts > 6) {
+      return(
+        <ul className='pagination pagination-sm justify-content-center mt-2 mb-5'>
+          {pageNumbers.map(number => (
+            <li key={number} className='page-item'>
+              <a onClick={() => paginate(number)} className='page-link'>
+                {number}
+              </a>
+            </li>
+          ))}
+        </ul>
+      )
+    }
+  }
+
   return (
     <nav>
-      <ul className='pagination pagination-sm justify-content-center mt-2 mb-5'>
-        {pageNumbers.map(number => (
-          <li key={number} className='page-item'>
-            <a onClick={() => paginate(number)} className='page-link border-0'>
-              {number}
-            </a>
-          </li>
-        ))}
-      </ul>
+      {paginateCondition()}
     </nav>
   );
 };
