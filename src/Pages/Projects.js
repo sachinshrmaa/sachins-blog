@@ -30,7 +30,7 @@ const Projects = () => {
                     <ul>
                         <li>Online Community forum -- <a href="#" target="blank">view on google scholars</a> </li>
                     </ul>
-                </div>t
+                </div>
             </div>
 
           

@@ -8,6 +8,7 @@ import BlogDetail from "./Blog/BlogDetail";
 import PrivacyPolicy from './Pages/Privacy'
 import Bookshelf from "./Pages/Bookshelf";
 import Projects from "./Pages/Projects";
+import Archive from "./Pages/Archive";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route exact path="/bookshelf" component={Bookshelf}/>
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/privacy" component={PrivacyPolicy} />
+        <Route exact path="/archive" component={Archive} />
         <Route exact path="/:id" component={BlogDetail}/>
       </Switch>
       <Footer />

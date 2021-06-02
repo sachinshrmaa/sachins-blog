@@ -36,7 +36,7 @@ const BlogSearch = () => {
     
     const [posts, setPosts] = useState([])
     const [category, setCategory] = useState('')
-    var loadingSpinner
+    var loadingSpinner = <span>loading...</span>
 
     const fetchData = async () => {
         setLoading(true)
@@ -56,9 +56,6 @@ const BlogSearch = () => {
 
 
     const filterBtn = (postCategories, setCategory) => {
-        if(loading){
-            loadingSpinner = <span>loading...</span>
-        }
         return(postCategories.map(category => (
             <li><a class="dropdown-item" key={category} onClick={() => handleFiltering(category)}> { loading ? loadingSpinner : category} </a></li> 
         )))
