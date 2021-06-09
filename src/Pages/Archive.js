@@ -23,7 +23,7 @@ const Archive = () => {
 
     const displayPosts = () => {
         return(posts.map(post => (
-            <p key={post.id}><span className="text-muted">{moment(post.timestamp).format('MMMM, YYYY')}</span> ~ <a href={post.slug}>{post.title}</a></p>
+            <p key={post.id}><span className="text-muted">{moment(post.timestamp).format('MMMM, YYYY')}</span> ~ <a href={`/${post.category}/${post.slug}`}>{post.title}</a></p>
         )))
     }
 

@@ -21,7 +21,7 @@ const PostCard = ({posts, loading}) => {
     return(posts.map(post => {
         return(
             <div class="col-md-4 my-3" key={post.id}>
-                <Link to={`/${post.slug}`} class="text-decoration-none text-dark" >                    <div class="card border-0">
+                <Link to={`/${post.category}/${post.slug}`} class="text-decoration-none text-dark" >                    <div class="card border-0">
                     <img src={post.thumbnail} class="card-img-top" alt={post.title} />
                     <div class="card-body">
                         <h5>{post.title}</h5> 
