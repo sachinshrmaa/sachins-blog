@@ -9,6 +9,7 @@ import PrivacyPolicy from './Pages/Privacy'
 import Bookshelf from "./Pages/Bookshelf";
 import Projects from "./Pages/Projects";
 import Archive from "./Pages/Archive";
+import Newsletter from "./Pages/JoinNewsletter";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <NavBar />
       <Switch>
         <Route exact path="/" component={BlogContainer}/>
+        <Route exact path="/newsletter" component={Newsletter} />
         <Route exact path="/about" component={About}/>
         <Route exact path="/search" component={BlogSearch}/>
         <Route exact path="/bookshelf" component={Bookshelf}/>

@@ -62,6 +62,33 @@ a, .nav-link{
 }
 
 
+
+
+
+.newsletter-title{
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.newsletter-text{
+  line-height: 30px;
+}
+
+.newsletter-input{
+  width: 350px;
+  height: 58px;
+  padding: 0 7px;
+  border-radius: 5px;
+  margin-right: 10px;
+  border:1px solid #dddddd
+}
+
+.newsletter-sc{
+  padding: 150px 0;
+}
+
+
+
 @media only screen and (max-width: 600px) {
   .search-inp{
       width: 100%;
