@@ -6,14 +6,14 @@ const Newsletter = () => {
         <div class="rounded py-5 newsletter-card text-center my-5">
           <div class="col-md-7 col-10 m-auto">
             <h3 class="mb-4">Join the Newsletter</h3>
-            <p>Exploring & Sharing the things I'm learning from life, work, books and travel. Join my weekly newsletter to be an insider & making sure you don't miss anything.</p>
+            <p>Exploring and Sharing the things I'm learning from life, work, books and travel. Join my weekly newsletter to receive short weekly emails on health, finance, relationships, and careers.</p>
           </div>
 
-          <div id="revue-embed" class="mt-md-5 mt-4">
-            <form action="https://www.getrevue.co/profile/sachinshrmaa/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
-                <input class="revue-form-fieldp-2 p-2 rounded border-0 w-md-25 mb-3 me-2" placeholder="Enter your Email..." type="email" name="member[email]" id="member_email" />
-                &nbsp;
-                <input type="submit" value="Join" name="member[subscribe]" id="member_submit" class="btn join-btn border-0 px-5 py-2" />
+          <div class="mt-md-5 mt-4">
+
+            <form action="https://sachinshrmaa.us10.list-manage.com/subscribe/post?u=e94ac720736227167db541b5c&amp;id=5f3f8db4af" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <input type="email" className="newsletter-input mb-3" name="EMAIL" placeholder="Enter your email" />
+                <input type="submit" value="I'm In!" name="subscribe" id="mc-embedded-subscribe" class="btn join-btn px-5 py-3" />
             </form>
             
           </div>

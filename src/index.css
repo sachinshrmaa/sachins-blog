@@ -65,17 +65,10 @@ a, .nav-link{
 
 
 
-.newsletter-title{
-  font-size: 70px;
-  font-weight: 700;
-}
 
-.newsletter-text{
-  line-height: 30px;
-}
 
 .newsletter-input{
-  width: 350px;
+  width: 300px;
   height: 58px;
   padding: 0 7px;
   border-radius: 5px;
@@ -83,9 +76,6 @@ a, .nav-link{
   border:1px solid #dddddd
 }
 
-.newsletter-sc{
-  padding: 150px 0;
-}
 
 
 
