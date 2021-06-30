@@ -1,6 +1,7 @@
 import axios from 'axios'
 import moment from 'moment'
 import React, {useState, useEffect} from 'react'
+import {Helmet} from "react-helmet";
 
 import Newsletter from '../Components/Newsletter'
 import RelatedPosts from './RelatedPosts'
@@ -46,6 +47,10 @@ const BlogDetail = (props) => {
 
     return (
         <div className="container">
+
+            <Helmet>
+                <title>{post.title} - Sachins Blog</title>
+            </Helmet>
             
             <div class="col-md-8 m-auto py-5">
 
@@ -55,6 +60,8 @@ const BlogDetail = (props) => {
                   </div>
               ):(
                   <div>
+
+                    
                      
 
                       <img src={post.thumbnail} className="mb-3 post-thumbnail" alt={post.thumbnail} />

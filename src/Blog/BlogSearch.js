@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useState, useEffect } from 'react'
+import { Helmet } from 'react-helmet';
 import Newsletter from '../Components/Newsletter'
 import Pagination from '../Components/Pagination'
 import PostCard from './PostCard';
@@ -73,6 +74,14 @@ const BlogSearch = () => {
 
     return (
         <div className="my-5 container">
+
+           <Helmet>
+                <title>Search - Sachins Blog</title>
+                <meta
+                    name="description"
+                    content="Search Sachins blogs"
+                />
+            </Helmet>
 
             <div class="bg-white p-4 rounded">
                 <div class="row">

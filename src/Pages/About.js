@@ -1,10 +1,18 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import myPicture from './sachin.jpg'
 
 
 const About = () => {
     return (
         <div class="col-md-6 m-auto col-11">
+            <Helmet>
+                <title>About - Sachins Blog</title>
+                <meta
+                    name="description"
+                    content="About Sachin Sharma"
+                />
+            </Helmet>
         <div class="my-md-4 py-md-4 my-4 py-3">
 
             <figure>

@@ -1,8 +1,16 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 const Newsletter = () => {
     return (
         <div class="col-md-8 m-auto col-11">
+            <Helmet>
+            <title>Join Newsletter - Sachins Blog</title>
+                <meta
+                    name="description"
+                    content="Join Newsletter Sachins blogs"
+                />
+            </Helmet>
             <div class="text-center my-5 py-5">
                 <h1 class="mb-4 display-2">Join Newsletter</h1>
                 <p>Okay here's the deal, SIGN UP to my weekly newsletter below, and in return, I'll send you short weekly emails on health, finance, relationships, and careers which I learn from people I meet, books and read, and more.</p>
