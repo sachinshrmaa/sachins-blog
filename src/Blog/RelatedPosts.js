@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import React, { useEffect, useState } from 'react'
-import { Helmet } from 'react-helmet';
 
 
 
@@ -39,14 +38,6 @@ const RelatedPosts = ({posts, category, loading}) => {
         return(
 
             <div class="col-md-4 my-3">
-                <Helmet>
-                    <title>Related Posts - Sachins Blogs</title>
-                    <meta
-                        name="description"
-                        content="Related Posts"
-                    />
-                </Helmet>
-
                 <Link to={`/${post.category}/${post.slug}`} class="text-decoration-none text-dark" >
                 <div class="card border-0">
                     <img src={post.thumbnail} class="card-img-top" alt={post.title} />  
