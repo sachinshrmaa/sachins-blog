@@ -48,9 +48,7 @@ const BlogDetail = (props) => {
     return (
         <div className="container">
 
-            <Helmet>
-                <title>{post.title} - Sachins Blog</title>
-            </Helmet>
+            
             
             <div class="col-md-8 m-auto py-5">
 
@@ -60,14 +58,11 @@ const BlogDetail = (props) => {
                   </div>
               ):(
                   <div>
-
-                    
-                     
-
+                   
                       <img src={post.thumbnail} className="mb-3 post-thumbnail" alt={post.thumbnail} />
 
                       <div class="col-md-10 m-auto">
-                        <h1 class="my-4 ">{post.title}</h1>
+                        <h1 className="my-4 post-title">{post.title}</h1>
 
                         <div class="row d-flex ">
                             <div class="d-flex justify-content-between align-items-center  m-0">
@@ -94,8 +89,8 @@ const BlogDetail = (props) => {
                         </div>
 
                         
-                        <div class="mt-4 mb-5">
-                          <div dangerouslySetInnerHTML={sanitizeBody()} /> 
+                        <div class="mt-4 mb-5 post-body">
+                          <div className="post-paragraph " dangerouslySetInnerHTML={sanitizeBody()} /> 
                         </div>
                         
                     </div>
