@@ -17,7 +17,7 @@ const BlogDetail = (props) => {
 
     const fetchPosts = async () => {
         setLoadingRelated(true)
-        const res = await axios.get('https://api.sachinsblog.in/api/posts')
+        const res = await axios.get('http://localhost:3000/api/posts')
         setPosts(res.data)
         setLoadingRelated(false)
     }
