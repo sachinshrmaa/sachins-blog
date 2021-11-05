@@ -25,7 +25,7 @@ const Bookshelf = () => {
                         <li>Why We Sleep by Mathew Walker</li>
                         <li>The Subtle Art of Not Giving a F*ck by Mark Manson</li>
                         <li>The Secret by Rhona Bryne</li>
-                        <li>The Almanack of Naval Ravikant by </li>
+                        <li>The Almanack of Naval Ravikant by Eric Jorgenson </li>
                         <li>Sapiens By Yoval Noah Harari</li>
                         <li>21 Lessons for 21st Century By Yoval Noah Harari</li>
                     </ul>
