@@ -17,7 +17,7 @@ const BlogDetail = (props) => {
 
     const fetchPosts = async () => {
         setLoadingRelated(true)
-        const res = await axios.get('http://localhost:3000/api/posts')
+        const res = await axios.get('https://api-sachinsblog.herokuapp.com/api/posts')
         setPosts(res.data)
         setLoadingRelated(false)
     }
@@ -27,7 +27,7 @@ const BlogDetail = (props) => {
 
         const fetchData = async () => {
             setLoading(true)
-            const res = await axios.get(`https://api.sachinsblog.in/api/posts/${slug}`)
+            const res = await axios.get(`https://api-sachinsblog.herokuapp.com/api/posts/${slug}`)
             setPost(res.data)
             setLoading(false)
         }

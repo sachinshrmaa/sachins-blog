@@ -23,7 +23,7 @@ const About = () => {
             
             
             <h3 class="my-4">About Me</h3>
-            <p>My name is Sachin Sharma and I'm a final year computer science student and I spend my free time reading books, writing journals, trying to design fun software, and explore new stuffs.</p>
+            <p>My name is Sachin Sharma and I'm a Bachelor's undergrad computer science student and I spend my free time reading books, writing journals, trying to design fun software, and explore new stuffs.</p>
 
             <div class="py-5">
                 <h3 class="mb-4">Sachins Blog</h3>
