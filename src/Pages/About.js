@@ -42,7 +42,7 @@ const About = () => {
                     <li>Designed and coded by Sachin on a Linux</li>
                     <li>Coded with Visual Studio Code</li>
                     <li>Built with React and Django REST Framework</li>
-                    <li>Hosted on Vercel and AWS</li>
+                    <li>Hosted on Vercel and Heroku</li>
                 </ul>
             </div>
 
