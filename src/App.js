@@ -10,6 +10,7 @@ import Bookshelf from "./Pages/Bookshelf";
 import Projects from "./Pages/Projects";
 import Archive from "./Pages/Archive";
 import Newsletter from "./Pages/JoinNewsletter";
+import Project3 from "./Pages/Project3";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/privacy" component={PrivacyPolicy} />
         <Route exact path="/archive" component={Archive} />
+        <Route exact path="/Project3" component={Project3} />
         <Route exact path="/:id/:id" component={BlogDetail}/>
       </Switch>
       <Footer />
