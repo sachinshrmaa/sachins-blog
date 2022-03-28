@@ -9,14 +9,14 @@ const Newsletter = () => {
             <p>Exploring and Sharing the things I'm learning from life, work, books and travel. Join my weekly newsletter to receive short weekly emails on health, finance, relationships, and careers.</p>
           </div>
 
-          <div class="mt-md-5 mt-4">
-
-            <form action="https://sachinshrmaa.us10.list-manage.com/subscribe/post?u=e94ac720736227167db541b5c&amp;id=5f3f8db4af" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                <input type="email" className="newsletter-input mb-3" name="EMAIL" placeholder="Enter your email" />
-                <input type="submit" value="I'm In!" name="subscribe" id="mc-embedded-subscribe" class="btn join-btn px-5 py-3" />
+        <div id="revue-embed">
+            <form action="https://www.getrevue.co/profile/sachinshrmaa/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
+                <input class="revue-form-field newsletter-input mb-3" placeholder="Your email address..." type="email" name="member[email]" id="member_email" />
+                <input type="submit" value="I'm In!" name="member[subscribe]" id="member_submit" class="btn join-btn px-5 py-3" />
+                <p class="mt-4 text-muted"><small>No spam, unsubscribe anytime.</small></p>
+                <div class="revue-form-footer"> <small>By subscribing, you agree with Revue’s <a target="_blank" className='text-primary' href="https://www.getrevue.co/terms">Terms of Service</a> and <a target="_blank" className='text-primary' href="https://www.getrevue.co/privacy">Privacy Policy</a>.</small> </div>
             </form>
-            
-          </div>
+        </div>
 
           <ul class="nav justify-content-center mt-4">
             <li class="nav-item">

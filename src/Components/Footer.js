@@ -11,7 +11,7 @@ const Footer = () => {
                 <a href="mailto:sachinkrsharmaa@gmail.com" class="text-decoration-none">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
                 <Link className="text-decoration-none" to="/archive">Archive</Link>&nbsp;&nbsp;&nbsp;&nbsp;
                 <Link className="text-decoration-none" to="/bookshelf">Bookshelf</Link>&nbsp;&nbsp;&nbsp;&nbsp;
-                <Link className="text-decoration-none" to="/project3">Project 3.0</Link>
+                <a href="http://newsletter.sachinsblog.in/" target="blank" class="text-decoration-none">Newsletter</a> 
             </small>
         </footer>
     )

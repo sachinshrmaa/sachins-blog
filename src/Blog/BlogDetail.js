@@ -63,7 +63,7 @@ const BlogDetail = (props) => {
                        <title>{post.title}</title>
                    </Helmet>
 
-                      <img src={post.thumbnail} className="mb-3 post-thumbnail" alt={post.thumbnail} />
+                      {/* <img src={post.thumbnail} className="mb-3 post-thumbnail" alt={post.thumbnail} /> */}
 
                       <div class="col-md-10 m-auto">
                         <h1 className="my-4 post-title">{post.title}</h1>

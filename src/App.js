@@ -9,7 +9,6 @@ import PrivacyPolicy from './Pages/Privacy'
 import Bookshelf from "./Pages/Bookshelf";
 import Projects from "./Pages/Projects";
 import Archive from "./Pages/Archive";
-import Newsletter from "./Pages/JoinNewsletter";
 import Project3 from "./Pages/Project3";
 
 const App = () => {
@@ -18,7 +17,6 @@ const App = () => {
       <NavBar />
       <Switch>
         <Route exact path="/" component={BlogContainer}/>
-        <Route exact path="/newsletter" component={Newsletter} />
         <Route exact path="/about" component={About}/>
         <Route exact path="/search" component={BlogSearch}/>
         <Route exact path="/bookshelf" component={Bookshelf}/>

@@ -40,7 +40,7 @@ const RelatedPosts = ({posts, category, loading}) => {
             <div class="col-md-4 my-3">
                 <Link to={`/${post.category}/${post.slug}`} class="text-decoration-none text-dark" >
                 <div class="card border-0">
-                    <img src={post.thumbnail} class="card-img-top" alt={post.title} />  
+                    {/* <img src={post.thumbnail} class="card-img-top" alt={post.title} />   */}
                     <div class="card-body">
                         <h5 class="card-title">{post.title}</h5>
                         <div className="text-muted" dangerouslySetInnerHTML={{__html: truncatePost(post.content)}} />
