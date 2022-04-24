@@ -5,7 +5,6 @@ import { useParams } from "react-router-dom"
 import {Helmet} from "react-helmet";
 
 import Newsletter from '../Components/Newsletter'
-import RelatedPosts from './RelatedPosts'
 
 
 const BlogDetail = (props) => {

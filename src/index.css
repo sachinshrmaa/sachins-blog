@@ -14,67 +14,13 @@ body{
   -moz-osx-font-smoothing: grayscale;
 }
 
-.search-inp{
-  height: 40px;
-  width: 340px;
-  color: #4d4d4d;
-}
 
-
-.nav-link{
-  color: var(--primary);
-  text-decoration: none;
-}
-
-.btn{
-  background-color: var(--primary);
-  color: var(--bg-color);
-}
-
-.join-btn{
-  background-color: var(--bg-color);
-  color: var(--text-color);
-}
-
-
-#logo{
-  font-size: 20px;
-  font-weight: 500;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: var(--primary);
-}
-
-
-
-.newsletter-card{
-  background-color:var(--primary);
-  color: #ffe;
-}
-
-
-.my-picture, .post-thumbnail{
-  height: 400px;
-  width: 100%;
-  object-fit: cover;
-}
-
-.post-thumbnail{
-  object-position: 50%;
-}
-
-.sub-heading{
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 600;
-  font-size: 30px;
-}
+/* Home Page */
 
 .card-title{
   font-family: 'Source Serif Pro', serif;
   font-weight: 600;
 }
-
-
 
 .featured-post{
   font-family: 'Source Serif Pro', serif;
@@ -82,21 +28,7 @@ body{
   font-weight: 800;
 }
 
-
-
-
-
-
-
-.newsletter-input{
-  width: 300px;
-  height: 40px;
-  padding: 0 7px;
-  border-radius: 5px;
-  margin-right: 10px;
-  border:1px solid #dddddd
-}
-
+/* Blog Detail Page */
 
 .post-paragraph{
   font-family: 'Lusitana', serif;
@@ -141,6 +73,72 @@ blockquote:before {
   margin-right: 0.25em;
   vertical-align: -0.4em;
 }
+
+.post-thumbnail{
+  object-position: 50%;
+}
+
+.sub-heading{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+/* Blog Search Page */
+
+.search-inp{
+  height: 40px;
+  width: 340px;
+  color: #4d4d4d;
+}
+
+/* Components Page */
+
+.nav-link{
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.btn{
+  background-color: var(--primary);
+  color: var(--bg-color);
+}
+
+.join-btn{
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+#logo{
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+
+.newsletter-card{
+  background-color:var(--primary);
+  color: #ffe;
+}
+
+.my-picture, .post-thumbnail{
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.newsletter-input{
+  width: 300px;
+  height: 40px;
+  padding: 0 7px;
+  border-radius: 5px;
+  margin-right: 10px;
+  border:1px solid #dddddd
+}
+
+
+
 
 
 

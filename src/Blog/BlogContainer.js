@@ -4,7 +4,6 @@ import moment from "moment";
 
 
 import Pagination from '../Components/Pagination'
-import PostCard from './PostCard'
 import Newsletter from '../Components/Newsletter'
 
 
@@ -64,7 +63,7 @@ const BlogContainer = () => {
                                     <div class="col-md-6">
                                         <img src={post.thumbnail} alt={post.title} class="img-fluid rounded-start" />
                                     </div>
-                                    <div class="col-md-6 align-self-center ps-3">
+                                    <div class="col-md-6 align-self-center ps-md-3">
                                         <div class="card-body ">
                                             <h1 class="card-title featured-post">{post.title} </h1>
                                             <div dangerouslySetInnerHTML={{__html: truncatePost(post.content)}} />
