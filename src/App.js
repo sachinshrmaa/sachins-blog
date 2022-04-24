@@ -1,4 +1,5 @@
-import {BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+import {BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import NavBar from './Components/NavBar'
 import BlogContainer from './Blog/BlogContainer'
 import Footer from './Components/Footer'
@@ -7,25 +8,19 @@ import BlogSearch from './Blog/BlogSearch'
 import BlogDetail from "./Blog/BlogDetail";
 import PrivacyPolicy from './Pages/Privacy'
 import Bookshelf from "./Pages/Bookshelf";
-import Projects from "./Pages/Projects";
-import Archive from "./Pages/Archive";
-import Project3 from "./Pages/Project3";
 
 const App = () => {
   return (
     <Router>
       <NavBar />
-      <Switch>
-        <Route exact path="/" component={BlogContainer}/>
-        <Route exact path="/about" component={About}/>
-        <Route exact path="/search" component={BlogSearch}/>
-        <Route exact path="/bookshelf" component={Bookshelf}/>
-        <Route exact path="/projects" component={Projects} />
-        <Route exact path="/privacy" component={PrivacyPolicy} />
-        <Route exact path="/archive" component={Archive} />
-        <Route exact path="/Project3" component={Project3} />
-        <Route exact path="/:id/:id" component={BlogDetail}/>
-      </Switch>
+        <Routes>
+            <Route exact path='/' element={<BlogContainer />} />
+            <Route exact path='/search' element={<BlogSearch />} />
+            <Route exact path='/bookshelf' element={<Bookshelf />} />
+            <Route exact path='/about' element={<About />} />
+            <Route exact path='/privacy' element={<PrivacyPolicy />} />
+            <Route exact path='/:id' element={<BlogDetail />} />
+        </Routes>
       <Footer />
     </Router>
   );
