@@ -17,7 +17,7 @@ const BlogDetail = (props) => {
     useEffect(() => {
         const fetchData = async () => {
             setLoading(true)
-            const res = await axios.get(`https://6087ae55a3b9c200173b8710.mockapi.io/api/posts/${id}`)
+            const res = await axios.get(`https://api-sachinsblog.herokuapp.com/api/posts/${id}`)
             setPost(res.data)
             setLoading(false)
         }
