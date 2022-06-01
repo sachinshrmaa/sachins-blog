@@ -8,6 +8,8 @@ import BlogSearch from './Blog/BlogSearch'
 import BlogDetail from "./Blog/BlogDetail";
 import PrivacyPolicy from './Pages/Privacy'
 import Bookshelf from "./Pages/Bookshelf";
+import Course from "./Pages/Course";
+
 
 const App = () => {
   return (
@@ -18,6 +20,7 @@ const App = () => {
             <Route exact path='/search' element={<BlogSearch />} />
             <Route exact path='/bookshelf' element={<Bookshelf />} />
             <Route exact path='/about' element={<About />} />
+            <Route exact path='/course' element={<Course />} />
             <Route exact path='/privacy' element={<PrivacyPolicy />} />
             <Route exact path='/:id' element={<BlogDetail />} />
         </Routes>

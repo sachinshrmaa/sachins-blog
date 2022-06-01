@@ -158,4 +158,21 @@ blockquote:before {
     height: 240px !important;
 
   }
+
+  .newsletter-input{
+    width: 100%;
+  }
+
+  .join-btn{
+    margin: 10px 0;
+    width: 100%;
+    
+  }
+
+  .post-title{
+    font-size: 38px;
+    line-height:44px;
+    font-weight: 800;
+  }
+
 }

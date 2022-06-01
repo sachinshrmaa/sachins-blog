@@ -36,7 +36,7 @@ const BlogDetail = (props) => {
     return (
         <div className="container">
  
-            <div class="col-md-8 m-auto py-5">
+            <div class="col-md-8 m-auto py-md-5 py-4">
 
             { loading ? (
                     <div class="col-12 my-5 text-center">
@@ -47,9 +47,13 @@ const BlogDetail = (props) => {
                     
                     <Helmet>
                         <title>{post.title}</title>
+                        <meta
+                            name="description"
+                            content={post.title}
+                        />
                     </Helmet>
 
-                        <img src={post.thumbnail} className="mb-3 post-thumbnail" alt={post.thumbnail} />
+                        {/* <img src={post.thumbnail} className="mb-3 post-thumbnail" alt={post.thumbnail} /> */}
 
                         <div class="col-md-10 m-auto">
                         <h1 className="my-4 post-title">{post.title}</h1>

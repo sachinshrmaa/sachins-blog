@@ -55,33 +55,16 @@ const BlogContainer = () => {
     const displayPosts = () =>{
         return(currentPosts.map((post, index) => {
             return(
-                <div className={index === 0 ? 'col-12 mb-5' : 'col-md-4 mb-4'}>
+                <div className='col-md-4 mb-4'>
                     <div className="card border-0">
-                        {index === 0 ? 
-                            <a href={`/${post.slug}`} className='text-decoration-none text-dark'>
-                                <div class="row g-0">
-                                    <div class="col-md-6">
-                                        <img src={post.thumbnail} alt={post.title} class="img-fluid rounded-start" />
-                                    </div>
-                                    <div class="col-md-6 align-self-center ps-md-3">
-                                        <div class="card-body ">
-                                            <h1 class="card-title featured-post">{post.title} </h1>
-                                            <div dangerouslySetInnerHTML={{__html: truncatePost(post.content)}} />
-                                            <p class="card-text"><small class="text-muted"> {moment(post.timestamp).format('MMMM D, YYYY')} </small></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        : 
-                            <a href={`/${post.slug}`} className='text-decoration-none text-dark'>
-                                <img src={post.thumbnail} class="card-img-top" alt={post.title} />
-                                <div class="card-body">
-                                    <h5 class="card-title">{post.title} </h5>
-                                    <div dangerouslySetInnerHTML={{__html: truncatePost(post.content)}} />
-                                    <p class="card-text"><small class="text-muted"> {moment(post.timestamp).format('MMMM D, YYYY')} </small></p>
-                                </div>
-                            </a>
-                        }
+                        <a href={`/${post.slug}`} className='text-decoration-none text-dark'>
+                            {/* <img src={post.thumbnail} class="card-img-top" alt={post.title} /> */}
+                            <div class="card-body">
+                                <h3 class="card-title">{post.title} </h3>
+                                <div dangerouslySetInnerHTML={{__html: truncatePost(post.content)}} />
+                                <p class="card-text"><small class="text-muted"> {moment(post.timestamp).format('MMMM D, YYYY')} </small></p>
+                            </div>
+                        </a>
                     </div>
                 </div>
             )

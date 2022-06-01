@@ -13,7 +13,7 @@ const Newsletter = () => {
                     <div id="revue-embed">
                         <form action="https://www.getrevue.co/profile/sachinshrmaa/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
                             <input class="revue-form-field newsletter-input " placeholder="Your email address..." type="email" name="member[email]" id="member_email" required />
-                            <input type="submit" value="I'm In!" name="member[subscribe]" id="member_submit" class="btn join-btn px-3 ms-3" />
+                            <input type="submit" value="I'm In!" name="member[subscribe]" id="member_submit" class="btn join-btn px-md-3 ms-md-3" />
                             <p><small>No spam, unsubscribe anytime.</small></p>
                             <div class="revue-form-footer"> <small>By subscribing, you agree with Revue’s <a target="_blank" href="https://www.getrevue.co/terms">Terms of Service</a> and <a target="_blank" href="https://www.getrevue.co/privacy">Privacy Policy</a>.</small> </div>
                         </form>

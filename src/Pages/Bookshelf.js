@@ -14,11 +14,12 @@ const Bookshelf = () => {
                 <li>Shoe Dog by Phil Knight - <a href="https://amzn.to/3OyyFmf" target='_blank'>view on amazon</a> </li>
                 <li>Meditiations By Marcus Aurelius - <a href="https://amzn.to/3xEowyi" target='_blank'>view on amazon</a></li>
                 <li>Wings of Fire: An Autobiography of Abdul Kalam - <a href="https://amzn.to/3jQ4cBJ" target='_blank'>view on amazon</a> </li>
+                <li>Rich Dad Poor Dad by Robert T. Kiyosaki - <a href='https://amzn.to/3sQtNQ5'>view on amazon</a> </li>
             </ul>
 
             <small>
-                <i><b>Disclosure :</b> All items listed below are Amazon affiliate links. 
-                This means I receive a very small commission if you make a purchase when clicking through anything below, at no additional cost to you (the doesn’t change the price). </i>
+                <i><b>Disclosure :</b> All items listed above are Amazon affiliate links. 
+                This means I receive a very small commission if you make a purchase when clicking through anything above, at no additional cost to you (this doesn’t change the price). </i>
             </small>
             
         </div>
