@@ -4,7 +4,7 @@ import styles from "../styles/Slug.module.css"
 
 
 const graphcms = new GraphQLClient(
-    "https://api-ap-south-1.hygraph.com/v2/clb0gitqq2e9u01uhbpr0fck8/master"
+    "https://ap-south-1.cdn.hygraph.com/content/clazncmxj1wfm01uh70pq8gya/master"
 );
 
 
