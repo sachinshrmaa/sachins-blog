@@ -1,8 +1,5 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lusitana&family=Plus+Jakarta+Sans:wght@300&family=Source+Serif+Pro:wght@300;700;900&display=swap');
-
-
 .featuredcardTitle{
     font-family: 'Source Serif Pro', serif;
     font-size: 50px;
@@ -24,3 +21,15 @@
 
 
 
+
+@media only screen and (max-width: 600px) {
+
+    .featuredcardTitle{
+        font-size: 30px;
+    }
+
+    .featuredcardBody{
+        line-height: 23px;
+    }
+
+}

@@ -15,7 +15,6 @@
     margin: 25px 0;
 }
 
-
 .postContent{
     font-family: 'Lusitana', serif;
     font-size: 18px;
@@ -32,4 +31,23 @@
     text-decoration: none;
     color: rgb(2, 2, 255);
 }
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .postTitle{
+        font-size: 35px;
+        line-height:40px;
+        font-weight: 900;
+        margin: 15px 0;
+    }
+
+    .postContent{
+        line-height: 24px;
+    }
+
+}
+
 
