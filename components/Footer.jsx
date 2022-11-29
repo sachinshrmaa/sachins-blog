@@ -6,7 +6,7 @@ const Footer = () => {
     return ( 
         <footer class="text-center py-3 bg-white mt-5">
 
-            <small className="text-center">Made with ❤ by Sachin</small> <br />
+            <small className="text-center">Made with ❤ by Sachin </small> <br />
 
             <small>
                 <Link className="text-decoration-none" href="/privacy">Privacy Policy</Link> &nbsp;&nbsp;&nbsp;&nbsp;
