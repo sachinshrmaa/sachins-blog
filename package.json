@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && mv build dist",
     "start": "next start",
     "lint": "next lint"
   },
