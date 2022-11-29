@@ -49,7 +49,7 @@ export default function Home({posts}) {
       <main className='row'>
 
           {posts.map((post, index) =>{return(
-              <div className={index === 0 ? 'col-12 mb-3' : 'col-md-3 mb-4'}>
+              <div className={index === 0 ? 'col-12 mb-3' : 'col-md-3 mb-4'} key={index}>
               
                 {index === 0 ?
                   <LatestPost

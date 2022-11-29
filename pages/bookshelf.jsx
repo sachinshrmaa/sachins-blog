@@ -13,17 +13,17 @@ const Bookshelf = () => {
            
             
             <h2 className="sub-heading">Bookshelf</h2>
-            <p>On this page, I share a list of books that I've read and found useful.</p>
+            <p>On this page, I share a list of books that I&aposve read and found useful.</p>
             
             <ul className="my-4">
-                <li>Malala Yusufzai- the girl who stoodup for education - <a href="https://amzn.to/3Erlnmy" target='_blank'>view on amazon</a></li>
-                <li>The Secret by Rhona Bryne - <a href="https://amzn.to/3KYGC1w" target='_blank'>view on amazon</a></li>
-                <li>Sapiens By Yoval Noah Harari - <a href="https://amzn.to/3xF4h3y" target='_blank'>view on amazon</a></li>
-                <li>21 Lessons for 21st Century By Yoval Noah Harari - <a href="https://amzn.to/3uTBbLO" target='_blank'>view on amazon</a></li>
-                <li>Shoe Dog by Phil Knight - <a href="https://amzn.to/3OyyFmf" target='_blank'>view on amazon</a> </li>
-                <li>Meditiations By Marcus Aurelius - <a href="https://amzn.to/3xEowyi" target='_blank'>view on amazon</a></li>
-                <li>Wings of Fire: An Autobiography of Abdul Kalam - <a href="https://amzn.to/3jQ4cBJ" target='_blank'>view on amazon</a> </li>
-                <li>Rich Dad Poor Dad by Robert T. Kiyosaki - <a href='https://amzn.to/3sQtNQ5'>view on amazon</a> </li>
+                <li>Malala Yusufzai- the girl who stoodup for education - <a href="https://amzn.to/3Erlnmy" target='_blank' rel="noreferrer">view on amazon</a></li>
+                <li>The Secret by Rhona Bryne - <a href="https://amzn.to/3KYGC1w" target='_blank' rel="noreferrer">view on amazon</a></li>
+                <li>Sapiens By Yoval Noah Harari - <a href="https://amzn.to/3xF4h3y" target='_blank' rel="noreferrer">view on amazon</a></li>
+                <li>21 Lessons for 21st Century By Yoval Noah Harari - <a href="https://amzn.to/3uTBbLO" target='_blank' rel="noreferrer">view on amazon</a></li>
+                <li>Shoe Dog by Phil Knight - <a href="https://amzn.to/3OyyFmf" target='_blank' rel="noreferrer">view on amazon</a> </li>
+                <li>Meditiations By Marcus Aurelius - <a href="https://amzn.to/3xEowyi" target='_blank' rel="noreferrer">view on amazon</a></li>
+                <li>Wings of Fire: An Autobiography of Abdul Kalam - <a href="https://amzn.to/3jQ4cBJ" target='_blank' rel="noreferrer">view on amazon</a> </li>
+                <li>Rich Dad Poor Dad by Robert T. Kiyosaki - <a href='https://amzn.to/3sQtNQ5' rel="noreferrer">view on amazon</a> </li>
             </ul>
 
             <small>
