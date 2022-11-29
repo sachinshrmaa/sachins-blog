@@ -1,8 +1,16 @@
+import Head from "next/head";
 
 
 const About = () => {
     return (  
         <div className="col-md-6 m-auto col-11 my-5">
+            <Head>
+                <title>About | Sachins Blog</title>
+                <meta name="description" content="I feel very lucky to get to onnect with so many extraordinary people." />
+                <link rel="icon" href="/sachinsblog.png" />
+            </Head>
+      
+      
             <h2 className="sub-heading">About</h2>
             <p>Hi, My name is Sachin and I'm an undergrad bachelor's student (computer science). I like to spend my free time reading books, writing journals, trying to design fun software, and explore new stuffs.</p>
 

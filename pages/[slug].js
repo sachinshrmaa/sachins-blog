@@ -1,5 +1,6 @@
 import { GraphQLClient, gql } from "graphql-request";
 import moment from "moment";
+import Head from "next/head";
 import styles from "../styles/Slug.module.css"
 
 
@@ -63,6 +64,11 @@ export async function getStaticProps({ params }) {
 const BlogPost = ({post}) => {
     return (  
         <div className="container">
+            <Head>
+                <title>{post.title} | Sachins Blog</title>
+                <meta name="description" content={post.title} />
+                <link rel="icon" href="/sachinsblog.png" />
+            </Head>
             
             <div class="col-md-8 m-auto py-md-5 py-4">
 

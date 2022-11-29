@@ -1,8 +1,15 @@
+import Head from "next/head"
 
 
 const PrivacyPolicy = () => {
     return (
         <div className="col-md-8 m-auto col-11 my-5">
+
+            <Head>
+                <title>Privacy | Sachins Blog</title>
+                <meta name="description" content=" By using our website, you hereby consent to our Privacy Policy and agree to its terms." />
+                <link rel="icon" href="/sachinsblog.png" />
+            </Head>
 
                 <h2 className="sub-heading mt-3">Privacy Policy for Sachins Blog</h2>
                 <br />

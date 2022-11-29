@@ -1,20 +1,19 @@
 
+
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lusitana&family=Plus+Jakarta+Sans:wght@300&family=Source+Serif+Pro:wght@300;700;900&display=swap');
 
 
-.cardBody{
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 18px;
-    margin-bottom: 5px;
+.featuredcardTitle{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 50px;
+    font-weight: 800;
 }
 
-.cardTitle{
-    font-family: 'Source Serif Pro', serif;
+.featuredcardBody{
+    font-family: 'Lusitana', serif;
     font-size: 18px;
-    font-weight: 700;
-    line-height: 20px;
+    line-height: 28px;
+    font-weight: 400;
 }
 
 .cardMeta{
@@ -22,3 +21,6 @@
     color: rgb(129, 129, 129);
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
+
+
+

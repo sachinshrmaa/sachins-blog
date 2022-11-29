@@ -11,7 +11,7 @@
 html,
 body{
   font-family: 'Plus Jakarta Sans', sans-serif;
-  background-color: rgb(250, 250, 250);
+  background-color: #fafcff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -36,12 +36,4 @@ blockquote:before {
     margin-right: 0.25em;
     vertical-align: -0.4em;
 }
-
-
-.subHeading{
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 600;
-  font-size: 30px;
-}
-
 

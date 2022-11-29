@@ -1,8 +1,17 @@
+import Head from "next/head";
 
 
 const Bookshelf = () => {
     return (  
         <div className="col-md-8 m-auto col-11 my-5">
+            <Head>
+                <title>Bookshelf | Sachins Blog</title>
+                <meta name="description" content="On this page, I share a list of books that I've read and found useful." />
+                <link rel="icon" href="/sachinsblog.png" />
+            </Head>
+
+           
+            
             <h2 className="sub-heading">Bookshelf</h2>
             <p>On this page, I share a list of books that I've read and found useful.</p>
             

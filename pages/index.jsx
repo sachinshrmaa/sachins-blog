@@ -1,6 +1,5 @@
 
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 import { GraphQLClient, gql } from "graphql-request";
 import BlogCard from '../components/BlogCard'
 import LatestPost from '../components/LatestPost';
@@ -47,39 +46,33 @@ export default function Home({posts}) {
         <link rel="icon" href="/sachinsblog.png" />
       </Head>
       
-      <main>
-          <div className="row">
+      <main className='row'>
 
-            {posts.map((post, index) =>{return(
-                <div className={index === 0 ? 'col-12 mb-5' : 'col-md-4 mb-4'}>
-                
-                  {index === 0 ?
-                    <LatestPost
-                      title={post.title}
-                      date={post.date}
-                      excerpt={post.excerpt}
-                      key={post.id}
-                      slug={post.slug}
-                      coverImage={post.coverImage}
-                    />
-                  :
-                    <BlogCard
-                      title={post.title}
-                      date={post.date}
-                      excerpt={post.excerpt}
-                      key={post.id}
-                      slug={post.slug}
-                      coverImage={post.coverImage}
-                    />
-                  }
+          {posts.map((post, index) =>{return(
+              <div className={index === 0 ? 'col-12 mb-3' : 'col-md-3 mb-4'}>
               
-                </div>
-            )})}
-
-          
-           
-          </div>
-
+                {index === 0 ?
+                  <LatestPost
+                    title={post.title}
+                    date={post.date}
+                    excerpt={post.excerpt}
+                    key={post.id}
+                    slug={post.slug}
+                    coverImage={post.coverImage}
+                  />
+                :
+                  <BlogCard
+                    title={post.title}
+                    date={post.date}
+                    excerpt={post.excerpt}
+                    key={post.id}
+                    slug={post.slug}
+                    coverImage={post.coverImage}
+                  />
+                }
+            
+              </div>
+          )})}
         
       </main>
    
