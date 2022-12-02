@@ -1,14 +1,10 @@
 
-/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lusitana&family=Plus+Jakarta+Sans:wght@300&family=Source+Serif+Pro:wght@300;700;900&display=swap');
- */
 
 :root {
   --text-color: rgb(17, 17, 17);
   --primary: #2f4e80;
   --bg-color: #fafcff;
 }
-
-
 
 html,
 body{
@@ -19,7 +15,7 @@ body{
 }
 
 nav{
-  border-bottom: 1px solid var(--bg-color);
+    border-bottom: 1px solid var(--bg-color);
     box-shadow: 0 .15rem 1.75rem 0 rgba(155, 151, 151, 0.15);
 }
 
