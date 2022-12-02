@@ -1,0 +1,11 @@
+
+
+#logo{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--primary);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+

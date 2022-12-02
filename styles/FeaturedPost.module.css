@@ -1,0 +1,35 @@
+
+
+.featuredcardTitle{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.featuredcardBody{
+    font-family: 'Lusitana', serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.cardMeta{
+    font-size: 14px;
+    color: rgb(129, 129, 129);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .featuredcardTitle{
+        font-size: 30px;
+    }
+
+    .featuredcardBody{
+        line-height: 23px;
+    }
+
+}
