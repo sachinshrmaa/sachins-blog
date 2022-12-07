@@ -9,7 +9,7 @@ const Newsletter = () => {
             <div className={styles.newsletterCard}>
             <div className="col-md-7 col-10 m-auto">
                 <h3 className={styles.newsletterHeading}>Join the Newsletter</h3>
-                <p>Exploring and Sharing the things I'm learning from life, work, books and travel. Join my weekly newsletter to receive short weekly emails on health, finance, relationships, and careers.</p>
+                <p>Exploring and Sharing the things I&apos;m learning from life, work, books and travel. Join my weekly newsletter to receive short weekly emails on health, finance, relationships, and careers.</p>
             </div>
 
             <div className="mt-md-5 mt-4">
