@@ -1,0 +1,58 @@
+
+
+.newsletterCard{
+    background-color:var(--primary);
+    color: #ffe;
+    text-align: center;
+    border-radius: 5px;
+    padding: 45px 0;
+}
+
+.newsletterHeading{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+
+.newsletterInp{
+    width: 300px;
+    height: 58px;
+    padding: 0 7px;
+    border-radius: 5px;
+    margin-right: 10px;
+    border:1px solid #dddddd;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.newsletterBtn{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    border: 0px;
+    border-radius: 5px;
+    height: 58px;
+    width: 100px;
+    margin: 0 5px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+    .newsletterHeading{
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+
+    .newsletterBtn{
+        height: 40px;
+    }
+    
+}
