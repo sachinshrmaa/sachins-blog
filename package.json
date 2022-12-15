@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.2",
     "eslint": "8.28.0",
     "eslint-config-next": "13.0.6",
     "graphql": "^16.6.0",
