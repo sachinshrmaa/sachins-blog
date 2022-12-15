@@ -20,6 +20,7 @@ const NavBar = () => {
                         <Link className="nav-link text-dark ms-md-2" href='/about'>About</Link>
                         <Link className="nav-link text-dark ms-md-2" href='/bookshelf'>Bookshelf</Link>
                         <Link className="nav-link text-dark ms-md-2" href='/cohorts'>Cohort</Link>
+                        <a className="nav-link text-dark ms-md-2" href='https://www.betaurus.shop' target="_blank">Shop</a>
                     </div>
                 </div>
             </div>
