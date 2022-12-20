@@ -27,7 +27,7 @@ const Cohorts = () => {
                     <h1 className={styles.subHeading}>Latest</h1>
                     <p className="text-center">Ongoing and upcoming cohorts...</p>
 
-                    <div className="row p-3">
+                    {/* <div className="row p-3">
 
                         <div className="col-md-6 my-2">
                             <div className="card">
@@ -52,6 +52,10 @@ const Cohorts = () => {
                         </div>
 
                     </div>
+                     */}
+
+                     <p className="text-center">We will notify once we lauch</p>
+
                 </div>
             </div>
 

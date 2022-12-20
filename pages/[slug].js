@@ -46,6 +46,7 @@ export async function getStaticPaths() {
     };
 }
   
+
 export async function getStaticProps({ params }) {
     const slug = params.slug;
     const data = await graphcms.request(QUERY, { slug });

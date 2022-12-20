@@ -12,6 +12,7 @@ export default function Document() {
             {/* Google Adsense Scripts */}
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7352636507358273" crossorigin="anonymous"></script>
 
+            <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h);p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/5e93d1e3a83679d27d02d635f/e839b3a3bd9d62f877275935e.js");</script>
       <body>
         <Main />
         <NextScript />
