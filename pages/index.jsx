@@ -3,6 +3,7 @@ import Head from 'next/head'
 import { GraphQLClient, gql } from "graphql-request";
 import BlogCard from '../components/BlogCard'
 import LatestPost from '../components/LatestPost';
+import Newsletter from "../components/Newsletter"
 
 
 const graphcms = new GraphQLClient(
@@ -75,7 +76,7 @@ export default function Home({posts}) {
           )})}
         
       </main>
-   
+      <Newsletter />
     </div>
   )
 }

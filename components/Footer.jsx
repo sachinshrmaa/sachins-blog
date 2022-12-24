@@ -12,7 +12,7 @@ const Footer = () => {
                 <Link className="text-decoration-none" href="/privacy">Privacy Policy</Link> &nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="https://github.com/sachinshrmaa/sachins-blog" target="blank" class="text-decoration-none">Open Source</a> &nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="mailto:mail.sachinsblog@gmail.com" class="text-decoration-none">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="http://newsletter.sachinsblog.in/" target="blank" class="text-decoration-none">Newsletter</a> 
+                <Link className="text-decoration-none" href="/newsletter">Newsletter</Link> &nbsp;&nbsp;&nbsp;&nbsp;
             </small>
 
         </footer>

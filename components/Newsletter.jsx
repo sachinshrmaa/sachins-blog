@@ -9,14 +9,34 @@ const Newsletter = () => {
             <div className={styles.newsletterCard}>
             <div className="col-md-7 col-10 m-auto">
                 <h3 className={styles.newsletterHeading}>Join the Newsletter</h3>
-                <p>Exploring and Sharing the things I&apos;m learning from life, work, books and travel. Join my weekly newsletter to receive short weekly emails on health, finance, relationships, and careers.</p>
+                <p>Every week I set aside an hour or two just to share things I&apos;ve been learning from books, life, and more straight into your inbox.</p>
             </div>
 
             <div className="mt-md-5 mt-4">
 
-                <form action="https://sachinshrmaa.us10.list-manage.com/subscribe/post?u=e94ac720736227167db541b5c&amp;id=5f3f8db4af" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" novalidate>
-                    <input type="email"  name="EMAIL" placeholder="Enter your email"  classNameName={styles.newsletterInp} />
-                    <input type="submit" value="I'm In!" name="subscribe" id="mc-embedded-subscribe"  className={styles.newsletterBtn} />
+            <form className="col-md-7 m-auto" action="https://sachinsblog.us10.list-manage.com/subscribe/post?u=5e93d1e3a83679d27d02d635f&amp;id=13e8fc99a7&amp;f_id=0050cbe5f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_self">
+                    <div className="row" id="mc_embed_signup_scroll">
+                        <div className="col">
+                            <small>First Name</small>
+                            <input type="text" className="form-control" placeholder="First name" name="FNAME" id="mce-FNAME" />
+                            <span id="mce-FNAME-HELPERTEXT" className="helper_text"></span>
+                        </div>
+                        <div className="col">
+                            <small>Email *</small>
+                            <input type="email" className="form-control" placeholder="hello@sachinsblog.in" name="EMAIL" id="mce-EMAIL" required />
+                            <span id="mce-EMAIL-HELPERTEXT" className="helper_text"></span>
+                        </div>
+                    </div>
+                    <div aria-hidden="true">
+                        <input type="text" name="b_5e93d1e3a83679d27d02d635f_13e8fc99a7" tabindex="-1" value="" className="d-none" />
+                    </div>
+                    <div id="mce-responses" className="clear foot">
+                        <div className="response d-none" id="mce-error-response" ></div>
+                        <div className="response d-none" id="mce-success-response"></div>
+                    </div> 
+                    <div class="col mt-2">
+                        <input type="submit" className="form-control bg-dark text-white border-0" value="Join Now" name="subscribe" id="mc-embedded-subscribe" />
+                    </div>
                 </form>
                 
             </div>

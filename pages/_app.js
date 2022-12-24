@@ -17,7 +17,6 @@ function MyApp({ Component, pageProps }) {
     <>
       <NavBar/>
       <Component {...pageProps} />
-      <Newsletter />
       <Footer/>
     </>
   )

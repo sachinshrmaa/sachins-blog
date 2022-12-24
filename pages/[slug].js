@@ -2,7 +2,7 @@ import { GraphQLClient, gql } from "graphql-request";
 import moment from "moment";
 import Head from "next/head";
 import styles from "../styles/Slug.module.css"
-
+import Newsletter from "../components/Newsletter"
 
 const graphcms = new GraphQLClient(
     "https://ap-south-1.cdn.hygraph.com/content/clazncmxj1wfm01uh70pq8gya/master"
@@ -114,6 +114,8 @@ const BlogPost = ({post}) => {
                 </div>
 
             </div>
+
+            <Newsletter />
 
 
         </div>

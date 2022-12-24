@@ -1,5 +1,32 @@
 
 
+
+.heroSection{
+    height: 600px;
+    padding: 105px 0;
+    background-color:  #ccdbfd;
+}
+
+
+.heroText{
+    font-size: 65px;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 80px;
+    margin-bottom: 20px;
+}
+
+.heroPara{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+
+
 .newsletterCard{
     background-color:var(--primary);
     color: #ffe;
@@ -53,6 +80,24 @@
 
     .newsletterBtn{
         height: 40px;
+    }
+
+
+    .heroSection{
+        height: auto;
+    }
+
+    .heroText{
+        font-size: 55px;
+        font-weight: 900;
+        width: 95%;
+        margin: auto;
+        line-height: 70px
+    } 
+
+    .heroPara{
+        width: 80%;
+        margin: auto;
     }
     
 }

@@ -19,8 +19,8 @@ const NavBar = () => {
                     <div className="navbar-nav ms-auto">
                         <Link className="nav-link text-dark ms-md-2" href='/about'>About</Link>
                         <Link className="nav-link text-dark ms-md-2" href='/bookshelf'>Bookshelf</Link>
-                        <Link className="nav-link text-dark ms-md-2" href='/cohorts'>Cohort</Link>
-                        <a className="nav-link text-dark ms-md-2" href='https://www.betaurus.shop' target="_blank">Shop</a>
+                        {/* <Link className="nav-link text-dark ms-md-2" href='/cohorts'>Cohort</Link> */}
+                        <a className="nav-link text-dark ms-md-2" href='https://www.betaurus.shop' target="_blank" rel="noreferrer">Shop</a>
                     </div>
                 </div>
             </div>
