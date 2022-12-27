@@ -17,7 +17,7 @@ const Newsletter = () => {
                
                <div className="container-md">
                     <h1 className={styles.heroText}>SachinsBlog Insider</h1>
-                    <p className={styles.heroPara}>SachinsBlog Insider is a weekly newsletter where every week I set aside an hour or two just to send my insider's a curated list of content related to self-development, tech, well-being, and more straight into your inbox.
+                    <p className={styles.heroPara}>SachinsBlog Insider is a weekly newsletter where every week I set aside an hour or two just to send my insider&apos;s a curated list of content related to self-development, tech, well-being, and more straight into your inbox.
                     </p>
             
                 
