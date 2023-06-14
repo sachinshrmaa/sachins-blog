@@ -1,11 +1,10 @@
 import Link from "next/link";
-import styles from "../styles/Navbar.module.css";
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-white">
+    <nav className="navbar navbar-expand-lg text-dark">
       <div className="container">
-        <Link className="navbar-brand" href="/" id={styles.logo}>
+        <Link className="navbar-brand" href="/" id="logo">
           Sachins Blog
         </Link>
 

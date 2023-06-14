@@ -1,6 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;800&family=Anton&family=Josefin+Sans:wght@300;400;700&family=Plus+Jakarta+Sans&family=Questrial&family=Yeseva+One&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;800&family=Anton&family=Josefin+Sans:wght@300;400;700&family=Plus+Jakarta+Sans&family=Questrial&family=Yeseva+One&display=swap");
 
 .heroSection {
   height: 600px;
@@ -28,12 +26,17 @@
   margin: auto;
   text-align: center;
   line-height: 30px;
-   font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .newsletterCard {
-  background-color: var(--primary);
-  color: #ffe;
+  background: rgb(220, 160, 255);
+  background: radial-gradient(
+    circle,
+    rgba(220, 160, 255, 1) 17%,
+    rgba(231, 233, 255, 1) 73%,
+    rgba(255, 199, 216, 1) 98%
+  );
   text-align: center;
   border-radius: 5px;
   padding: 45px 0;

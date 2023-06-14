@@ -1,22 +1,96 @@
-
-import Link from 'next/link'
-
+import Link from "next/link";
 
 const Footer = () => {
-    return ( 
-        <footer class="text-center py-3 bg-white mt-5">
+  return (
+    <footer className="text-dark">
+      <div className="container py-5">
+        <div className="row">
+          <div className="col-md-4">
+            <Link href="/" className="navbar-brand" id="logo">
+              SACHINSBLOG
+            </Link>
+            <p className="mt-2">Made with ❤ by Sachin</p>
+            <small className="mt-2">2023&copy; All Rights Reserved</small>
+          </div>
+          <div className="col-md-8">
+            <div className="row">
+              <div className="col">
+                {/* <h5>Quick Links</h5> */}
+                <nav class="nav  flex-column">
+                  <Link class="nav-link text-dark" href="/about">
+                    About
+                  </Link>
+                  <Link class="nav-link text-dark" href="/bookshelf">
+                    Bookshelf
+                  </Link>
+                  <Link class="nav-link text-dark" href="/contact">
+                    Contact
+                  </Link>
+                  <Link class="nav-link text-dark" href="/newsletter">
+                    Newsletter
+                  </Link>
+                </nav>
+              </div>
+              <div className="col">
+                {/* <h5>Resources</h5> */}
+                <nav class="nav flex-column">
+                  <Link
+                    class="nav-link text-dark"
+                    href="https://betaurus.shop"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Merchandise
+                  </Link>
+                  <Link
+                    class="nav-link text-dark"
+                    href="https://open.spotify.com/show/3wgVx0oPtaBG8adhmjt7CW"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Podcast
+                  </Link>
+                  <Link
+                    class="nav-link text-dark"
+                    href="https://work.sachinsblog.in"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Work with Me
+                  </Link>
+                  <Link
+                    class="nav-link text-dark"
+                    href="https://thebasics.sachinsblog.in"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Masterclass
+                  </Link>
+                </nav>
+              </div>
+              <div className="col">
+                {/* <h5>Support</h5> */}
+                <nav class="nav  flex-column">
+                  <Link class="nav-link text-dark" href="#">
+                    Terms
+                  </Link>
+                  <Link class="nav-link text-dark" href="#">
+                    Privacy
+                  </Link>
+                  <Link class="nav-link text-dark" href="#">
+                    Refunds
+                  </Link>
+                  <Link class="nav-link text-dark" href="#">
+                    FAQ
+                  </Link>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
 
-            <small className="text-center">Made with ❤ by Sachin </small> <br />
-
-            <small>
-                <Link className="text-decoration-none" href="/privacy">Privacy Policy</Link> &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="https://github.com/sachinshrmaa/sachins-blog" target="blank" class="text-decoration-none">Open Source</a> &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="mailto:mail.sachinsblog@gmail.com" class="text-decoration-none">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                <Link className="text-decoration-none" href="/newsletter">Newsletter</Link> &nbsp;&nbsp;&nbsp;&nbsp;
-            </small>
-
-        </footer>
-     );
-}
- 
 export default Footer;
