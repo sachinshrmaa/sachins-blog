@@ -40,7 +40,7 @@ export default function Home() {
 
   return (
     <div className="container py-5">
-      <div className="row">
+      <div className="row mb-5">
         <Link
           href={latestPost.slug}
           className="text-decoration-none text-dark"

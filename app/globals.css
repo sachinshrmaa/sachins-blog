@@ -16,9 +16,9 @@ body {
 
 .navbar,
 footer {
-  /* border-bottom: 1px solid var(--bg-color);
-  box-shadow: 0 0.15rem 1.75rem 0 rgba(155, 151, 151, 0.15); */
-  background-color: #F7F7F7;
+  border-bottom: 1px solid var(--bg-color);
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(155, 151, 151, 0.15);
+  
 }
 
 blockquote {
@@ -50,7 +50,10 @@ blockquote:before {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
+footer{
+  background-color: #8e92fb;
+}
+
 footer .nav-link {
   padding: 5px 0;
 }
-
