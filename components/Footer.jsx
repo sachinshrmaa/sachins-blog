@@ -9,10 +9,10 @@ const Footer = () => {
             <Link href="/" className="navbar-brand" id="logo">
               SACHINSBLOG
             </Link>
-            <p className="mt-2">Made with ❤ by Sachin</p>
-            <small className="mt-2">2023&copy; All Rights Reserved</small>
+            <p className="mt-md-2">Made with ❤ by Sachin</p>
+            <small className="mt-md-2">2023&copy; All Rights Reserved</small>
           </div>
-          <div className="col-md-8">
+          <div className="col-md-8 my-md-0 my-4">
             <div className="row">
               <div className="col">
                 {/* <h5>Quick Links</h5> */}
@@ -71,17 +71,8 @@ const Footer = () => {
               <div className="col">
                 {/* <h5>Support</h5> */}
                 <nav class="nav  flex-column">
-                  <Link class="nav-link text-dark" href="#">
-                    Terms
-                  </Link>
-                  <Link class="nav-link text-dark" href="#">
-                    Privacy
-                  </Link>
-                  <Link class="nav-link text-dark" href="#">
-                    Refunds
-                  </Link>
-                  <Link class="nav-link text-dark" href="#">
-                    FAQ
+                  <Link class="nav-link text-dark" href="/privacy">
+                    Privacy Policy
                   </Link>
                 </nav>
               </div>

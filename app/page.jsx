@@ -1,6 +1,4 @@
-"use client";
 
-// pages/index.js
 import fs from "fs";
 import matter from "gray-matter";
 import Link from "next/link";
@@ -8,8 +6,6 @@ import moment from "moment";
 import styles from "./page.module.css";
 import PromotionCard from "@/components/PromotionCard";
 import NewsletterCard from "@/components/NewsletterCard";
-import Pagination from "@/components/Pagination";
-import { useRouter } from "next/navigation"; // add this line
 
 const getPostMetadata = () => {
   const folder = "posts/";
@@ -63,7 +59,7 @@ export default function Home() {
           className="text-decoration-none text-dark"
           key={latestPost.key}
         >
-          <div className="card border-0 my-4">
+          <div className="card border-0 my-md-4">
             <div className="row">
               <div className="col-md-6">
                 <img
@@ -101,7 +97,7 @@ export default function Home() {
                     />
                   </div>
                   <div className="col-6 col-md-12">
-                    <div className="my-md-3 m-1">
+                    <div className="my-md-3">
                       <h5 className={styles.cardTitle}>{post.title}</h5>
                       <p className={styles.cardBody}>{post.subtitle}</p>
                       <small className={styles.cardMeta}>
