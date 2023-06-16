@@ -1,12 +1,15 @@
 {
   "name": "sachins-blog",
-  "version": "0.1.0",
+  "version": "2.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
+  },
+  "engines": {
+    "node": "^18.0.0"
   },
   "dependencies": {
     "bootstrap": "^5.2.3",
