@@ -57,7 +57,7 @@ export default function Home() {
 
   return (
     <div className="container py-5">
-      <div className="row mb-5">
+      <div className="row">
         <Link
           href={latestPost.slug}
           className="text-decoration-none text-dark"

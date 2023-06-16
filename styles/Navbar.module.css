@@ -5,7 +5,7 @@
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #210f59;
+    color: var(--primary);
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
