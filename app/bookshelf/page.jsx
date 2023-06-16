@@ -69,7 +69,7 @@ const Bookshelf = () => {
           <b>Disclosure :</b> All items listed above are Amazon affiliate links.
           This means I receive a very small commission if you make a purchase
           when clicking through anything above, at no additional cost to you
-          (this doesn’t change the price).{" "}
+          (this doesn&apos;’t change the price).{" "}
         </i>
       </small>
     </div>

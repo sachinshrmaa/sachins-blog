@@ -37,7 +37,6 @@
     rgba(231, 233, 255, 1) 73%,
     rgba(255, 199, 216, 1) 98%
   );
-  text-align: center;
   border-radius: 5px;
   padding: 45px 0;
 }
@@ -47,6 +46,7 @@
   font-weight: 600;
   font-size: 35px;
   margin-bottom: 25px;
+  text-align: center;
 }
 
 .newsletterInp {

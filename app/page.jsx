@@ -1,4 +1,3 @@
-
 import fs from "fs";
 import matter from "gray-matter";
 import Link from "next/link";
@@ -39,21 +38,9 @@ export default function Home() {
   const latestPost = postMetadata[0];
   const previousPosts = postMetadata.slice(1);
 
-  const totalPosts = postMetadata.length;
-  const postsPerPage = 2;
-
-  const router = useRouter(); // add this line
-  // get the current page number from the query string or default to 1
-  const currentPage = parseInt(router.query.page) || 1; // add this line
-  // calculate the start and end index of the posts to display on the current page
-  const startIndex = (currentPage - 1) * postsPerPage; // add this line
-  const endIndex = startIndex + postsPerPage; // add this line
-  // slice the previousPosts array according to the start and end index
-  const paginatedPosts = previousPosts.slice(startIndex, endIndex); // add this line
-
   return (
     <div className="container py-5">
-      <div className="row">
+      <div className="row mb-5">
         <Link
           href={latestPost.slug}
           className="text-decoration-none text-dark"
@@ -82,9 +69,8 @@ export default function Home() {
 
       <PromotionCard />
 
-      <div className="row my-md-4">
-        {/* map over the paginatedPosts array instead of the previousPosts array */}
-        {paginatedPosts.map((post) => (
+      <div className="row my-4">
+        {previousPosts.map((post) => (
           <div className="col-md-3 mb-4" key={post.slug}>
             <Link href={post.slug} className="text-decoration-none text-dark">
               <div className="card border-0 my-md-3">
@@ -111,8 +97,6 @@ export default function Home() {
           </div>
         ))}
       </div>
-
-      <Pagination totalPosts={totalPosts} postsPerPage={postsPerPage} />
 
       <NewsletterCard />
     </div>

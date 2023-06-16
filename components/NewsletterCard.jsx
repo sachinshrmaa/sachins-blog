@@ -5,7 +5,7 @@ const NewsletterCard = () => {
     <div className={styles.newsletterCard}>
       <div className="col-md-7 col-10 m-auto">
         <h3 className={styles.newsletterHeading}>Join the Newsletter</h3>
-        <p>
+        <p className="text-center">
           Every week I set aside an hour or two just to share things I&apos;ve
           been learning from books, life, and more straight into your inbox.
         </p>

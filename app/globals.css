@@ -54,3 +54,10 @@ footer .nav-link {
   padding: 5px 0;
 }
 
+
+.pageHeading {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  margin-bottom: 25px;
+}
