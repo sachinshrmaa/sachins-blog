@@ -4,6 +4,7 @@ import "./globals.css";
 
 import NavBar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Script from "next/script";
 
 export default function RootLayout({ children }) {
   return (
@@ -13,6 +14,13 @@ export default function RootLayout({ children }) {
         <NavBar />
         {children}
         <Footer />
+
+        {/* Bootstrap CDN */}
+        <Script
+          id="bootstrap-cdn"
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+          strategy="beforeInteractive"
+        />
       </body>
     </html>
   );

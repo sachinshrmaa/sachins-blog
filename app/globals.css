@@ -18,7 +18,6 @@ body {
 footer {
   border-bottom: 1px solid var(--bg-color);
   box-shadow: 0 0.15rem 1.75rem 0 rgba(155, 151, 151, 0.15);
-  
 }
 
 blockquote {
@@ -50,10 +49,17 @@ blockquote:before {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-footer{
+footer {
   background-color: #8e92fb;
 }
 
 footer .nav-link {
   padding: 5px 0;
+}
+
+.pageHeading {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  margin-bottom: 25px;
 }

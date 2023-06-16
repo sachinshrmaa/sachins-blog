@@ -46,7 +46,7 @@ export default function Home() {
           className="text-decoration-none text-dark"
           key={latestPost.key}
         >
-          <div className="card border-0 my-4">
+          <div className="card border-0 my-md-4">
             <div className="row">
               <div className="col-md-6">
                 <img
@@ -69,7 +69,7 @@ export default function Home() {
 
       <PromotionCard />
 
-      <div className="row my-md-4">
+      <div className="row my-4">
         {previousPosts.map((post) => (
           <div className="col-md-3 mb-4" key={post.slug}>
             <Link href={post.slug} className="text-decoration-none text-dark">
@@ -83,7 +83,7 @@ export default function Home() {
                     />
                   </div>
                   <div className="col-6 col-md-12">
-                    <div className="my-md-3 m-1">
+                    <div className="my-md-3">
                       <h5 className={styles.cardTitle}>{post.title}</h5>
                       <p className={styles.cardBody}>{post.subtitle}</p>
                       <small className={styles.cardMeta}>
