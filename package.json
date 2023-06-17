@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "engines": {
-    "node": "^18.0.0"
+    "node": "^16.18.0"
   },
   "dependencies": {
     "bootstrap": "^5.2.3",
@@ -17,7 +17,6 @@
     "eslint": "8.28.0",
     "eslint-config-next": "^13.4.5",
     "graphql": "^16.6.0",
-    "graphql-request": "^5.0.0",
     "gray-matter": "^4.0.3",
     "markdown-to-jsx": "^7.2.1",
     "moment": "^2.29.4",
