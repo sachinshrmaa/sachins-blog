@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "engines": {
-    "node": "^16.18.0"
+    "node": "18.x"
   },
   "dependencies": {
     "bootstrap": "^5.2.3",

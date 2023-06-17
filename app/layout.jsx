@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "./globals.css";
 
-import NavBar from "@/components/Navbar";
+import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 import Script from "next/script";
 
