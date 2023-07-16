@@ -58,7 +58,7 @@ const NewsletterCard = () => {
             <div className="response d-none" id="mce-error-response"></div>
             <div className="response d-none" id="mce-success-response"></div>
           </div>
-          <div class="col mt-2">
+          <div className="col mt-2">
             <input
               type="submit"
               className="form-control bg-dark text-white border-0"
@@ -132,7 +132,7 @@ const NewsletterCard = () => {
             target="blank"
             href="https://instagram.com/sachinshrmaa/"
           >
-            <i class="bi bi-spotify"></i>
+            <i className="bi bi-spotify"></i>
           </a>
         </li>
 
@@ -142,7 +142,7 @@ const NewsletterCard = () => {
             target="blank"
             href="https://instagram.com/sachinshrmaa/"
           >
-            <i class="bi bi-youtube"></i>
+            <i className="bi bi-youtube"></i>
           </a>
         </li>
 
@@ -152,7 +152,7 @@ const NewsletterCard = () => {
             target="blank"
             href="https://instagram.com/sachinshrmaa/"
           >
-            <i class="bi bi-linkedin"></i>
+            <i className="bi bi-linkedin"></i>
           </a>
         </li>
       </ul>

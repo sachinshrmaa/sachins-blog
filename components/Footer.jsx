@@ -16,26 +16,26 @@ const Footer = () => {
             <div className="row">
               <div className="col">
                 {/* <h5>Quick Links</h5> */}
-                <nav class="nav  flex-column">
-                  <Link class="nav-link text-dark" href="/about">
+                <nav className="nav  flex-column">
+                  <Link className="nav-link text-dark" href="/about">
                     About
                   </Link>
-                  <Link class="nav-link text-dark" href="/bookshelf">
+                  <Link className="nav-link text-dark" href="/bookshelf">
                     Bookshelf
                   </Link>
-                  <Link class="nav-link text-dark" href="/contact">
+                  <Link className="nav-link text-dark" href="/contact">
                     Contact
                   </Link>
-                  <Link class="nav-link text-dark" href="/newsletter">
+                  <Link className="nav-link text-dark" href="/newsletter">
                     Newsletter
                   </Link>
                 </nav>
               </div>
               <div className="col">
                 {/* <h5>Resources</h5> */}
-                <nav class="nav flex-column">
+                <nav className="nav flex-column">
                   <Link
-                    class="nav-link text-dark"
+                    className="nav-link text-dark"
                     href="https://betaurus.shop"
                     target="_blank"
                     rel="noreferrer"
@@ -43,7 +43,7 @@ const Footer = () => {
                     Merchandise
                   </Link>
                   <Link
-                    class="nav-link text-dark"
+                    className="nav-link text-dark"
                     href="https://open.spotify.com/show/3wgVx0oPtaBG8adhmjt7CW"
                     target="_blank"
                     rel="noreferrer"
@@ -51,7 +51,7 @@ const Footer = () => {
                     Podcast
                   </Link>
                   <Link
-                    class="nav-link text-dark"
+                    className="nav-link text-dark"
                     href="https://work.sachinsblog.in"
                     target="_blank"
                     rel="noreferrer"
@@ -59,7 +59,7 @@ const Footer = () => {
                     Work with Me
                   </Link>
                   <Link
-                    class="nav-link text-dark"
+                    className="nav-link text-dark"
                     href="https://thebasics.sachinsblog.in"
                     target="_blank"
                     rel="noreferrer"
@@ -70,8 +70,8 @@ const Footer = () => {
               </div>
               <div className="col">
                 {/* <h5>Support</h5> */}
-                <nav class="nav  flex-column">
-                  <Link class="nav-link text-dark" href="/privacy">
+                <nav className="nav  flex-column">
+                  <Link className="nav-link text-dark" href="/privacy">
                     Privacy Policy
                   </Link>
                 </nav>

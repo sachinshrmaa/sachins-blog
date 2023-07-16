@@ -66,7 +66,7 @@ const Newsletter = () => {
               <div className="response d-none" id="mce-error-response"></div>
               <div className="response d-none" id="mce-success-response"></div>
             </div>
-            <div class="col mt-2">
+            <div className="col mt-2">
               <input
                 type="submit"
                 className="form-control bg-dark text-white"
