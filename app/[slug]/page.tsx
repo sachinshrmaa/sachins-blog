@@ -2,6 +2,7 @@ import fs from "fs";
 import Markdown from "markdown-to-jsx";
 import matter from "gray-matter";
 import getPosts from "../../components/getPosts";
+import moment from "moment";
 
 const getPostContent = (slug: string) => {
   const folder = "posts/";
@@ -22,10 +23,21 @@ const PostPage = (props: any) => {
   const slug = props.params.slug;
   const post = getPostContent(slug);
   return (
-    <div>
-      <h1>{post.data.title}</h1>
-      <p>{post.data.date}</p>
-      <Markdown>{post.content}</Markdown>
+    <div className="max-w-4xl mx-auto py-8 sm:px-6 lg:px-8 min-h-[70vh] ">
+      <img
+        src={post.data.thumbnail}
+        alt={post.data.title}
+        className="rounded-lg mb-4 max-h-[500px] w-full object-center object-cover"
+      />
+      <div className="max-w-2xl mx-auto">
+        <small className="text-gray-600">
+          {moment(post.data.date).format("MMMM D, YYYY")}
+        </small>
+        <h1 className="text-3xl font-bold mb-4 mt-1">{post.data.title}</h1>
+        <article className="prose">
+          <Markdown>{post.content}</Markdown>
+        </article>
+      </div>
     </div>
   );
 };

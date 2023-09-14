@@ -37,6 +37,58 @@ const Footer = () => {
             Newsletter
           </Link>
         </div>
+        <div>
+          <Link
+            href="#"
+            className="text-blue-900 block px-3 py-1 text-base font-medium hover:text-blue-800"
+          >
+            About
+          </Link>
+          <Link
+            href="#"
+            className="text-blue-900 block px-3 py-1 text-base font-medium hover:text-blue-800"
+          >
+            Bookshelf
+          </Link>
+          <Link
+            href="#"
+            className="text-blue-900 block px-3 py-1 text-base font-medium hover:text-blue-800"
+          >
+            Contact
+          </Link>
+          <Link
+            href="#"
+            className="text-blue-900 block px-3 py-1 text-base font-medium hover:text-blue-800"
+          >
+            Newsletter
+          </Link>
+        </div>
+        <div>
+          <Link
+            href="#"
+            className="text-blue-900 block px-3 py-1 text-base font-medium hover:text-blue-800"
+          >
+            About
+          </Link>
+          <Link
+            href="#"
+            className="text-blue-900 block px-3 py-1 text-base font-medium hover:text-blue-800"
+          >
+            Bookshelf
+          </Link>
+          <Link
+            href="#"
+            className="text-blue-900 block px-3 py-1 text-base font-medium hover:text-blue-800"
+          >
+            Contact
+          </Link>
+          <Link
+            href="#"
+            className="text-blue-900 block px-3 py-1 text-base font-medium hover:text-blue-800"
+          >
+            Newsletter
+          </Link>
+        </div>
       </div>
     </footer>
   );

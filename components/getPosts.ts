@@ -15,8 +15,14 @@ const getPosts = (): PostMetadata[] => {
       title: matterResult.data.title,
       date: matterResult.data.date,
       subtitle: matterResult.data.subtitle,
+      thumbnail: matterResult.data.thumbnail,
       slug: fileName.replace(".md", ""),
     };
+  });
+
+  // Sort posts by date in descending order
+  posts.sort((a: PostMetadata, b: PostMetadata) => {
+    return new Date(b.date).getTime() - new Date(a.date).getTime();
   });
 
   return posts;
