@@ -1,7 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lusitana&family=Plus+Jakarta+Sans:wght@300&family=Source+Serif+Pro:wght@300;700;900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body{
-    margin: 0;
+body {
+  margin: 0;
+}
+
+#logo {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #2f4e80;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
