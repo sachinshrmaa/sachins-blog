@@ -1,63 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lusitana&family=Plus+Jakarta+Sans:wght@300&family=Source+Serif+Pro:wght@300;700;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-root {
-  --text-color: rgb(17, 17, 17);
-  --primary: #2f4e80;
-  --bg-color: #fafcff;
-}
-
-html,
-body {
-  font-family: "Plus Jakarta Sans", sans-serif;
-  background-color: var(--bg-color);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.navbar,
-footer {
-  /* border-bottom: 1px solid var(--bg-color);
-  box-shadow: 0 0.15rem 1.75rem 0 rgba(155, 151, 151, 0.15); */
-  background-color: #F7F7F7;
-}
-
-blockquote {
-  font-size: 20px;
-  font-family: "Josefin Sans", sans-serif;
-  background: #f8f8f8;
-  border-left: 5px solid #ccc;
-  margin: 1.5em 10px;
-  padding: 0.9em 10px;
-  quotes: "\201C""\201D""\2018""\2019";
-  text-align: center;
-}
-
-blockquote:before {
-  color: #ccc;
-  content: open-quote;
-  font-size: 4em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
-}
-
-#logo {
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #000;
-  font-family: "Plus Jakarta Sans", sans-serif;
-}
-
-footer .nav-link {
-  padding: 5px 0;
-}
-
-
-.pageHeading {
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: 600;
-  font-size: 35px;
-  margin-bottom: 25px;
+body{
+    margin: 0;
 }
