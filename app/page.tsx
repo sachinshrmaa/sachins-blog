@@ -29,7 +29,6 @@ export default function Home() {
           <PostCard
             title={post.title}
             subtitle={post.subtitle}
-            date={post.date}
             slug={post.slug}
             thumbnail={post.thumbnail}
           />

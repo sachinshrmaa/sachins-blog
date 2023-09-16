@@ -1,6 +1,6 @@
 ---
-title: "Using AI to generate poetry"
-subtitle: "I used GPT-3 to generate poetry and other creative content."
+title: "Using AI to generate poetry that really excited me"
+subtitle: "I used GPT-3 to generate poetry and other creative content.  the application that really excited me was creative writing (stuff like SEO generation is cool and all, but a "
 date: "2021-08-27"
 thumbnail: "./thumbnails/me.jpg"
 ---

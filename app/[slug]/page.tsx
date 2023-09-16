@@ -29,12 +29,13 @@ const PostPage = (props: any) => {
         alt={post.data.title}
         className="rounded-lg mb-4 max-h-[500px] w-full object-center object-cover"
       />
-      <div className="max-w-2xl mx-auto">
-        <small className="text-gray-600">
+      <div className="max-w-2xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
+        <small className="latest-post-meta">
           {moment(post.data.date).format("MMMM D, YYYY")}
         </small>
-        <h1 className="text-3xl font-bold mb-4 mt-1">{post.data.title}</h1>
-        <article className="prose">
+        <h1 className="post-page-title">{post.data.title}</h1>
+
+        <article className="prose post-page-body">
           <Markdown>{post.content}</Markdown>
         </article>
       </div>
