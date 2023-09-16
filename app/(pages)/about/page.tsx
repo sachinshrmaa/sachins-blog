@@ -10,7 +10,7 @@ export default function About() {
     <div className="max-w-2xl mx-auto px-4 py-8 sm:px-6 lg:px-8 min-h-[70vh]">
       <h1 className="page-heading">About Sachin</h1>
       <p className="mb-3">
-        Hi there! My name is Sachin Sharma, I'm a computer engineering student
+        Hi there! My name is Sachin Sharma, I&apos;m a computer engineering student
         at Sikkim Institute of Science and Technology, Chisopani, Sikkim -
         India.
       </p>
@@ -23,7 +23,7 @@ export default function About() {
       </p>
 
       <p className="mb-3">
-        And once a week I set aside some time to share the things I'm learning
+        And once a week I set aside some time to share the things I&apos;m learning
         through my work, books, and awesome people I meet through my SachinsBlog
         Insider Newsletter(feel free to join).
       </p>
