@@ -17,7 +17,7 @@ body {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-.page-heading{
+.page-heading {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 600;
   font-size: 24px;
@@ -88,6 +88,43 @@ body {
   font-weight: 400;
 }
 
+.post-page-body p {
+  margin: 20px 0;
+}
+
+.post-page-body img {
+  margin: auto;
+}
+
+.post-page-body h2 {
+  margin: 25px 0;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.post-page-body h3 {
+  margin: 22px 0;
+  font-weight: 600;
+  font-size: 21px;
+}
+
+.post-page-body a {
+  color: blue;
+}
+
+.post-page-body a:hover {
+  text-decoration-line: underline;
+}
+
+.post-page-body ul {
+  list-style-type: circle;
+}
+
+.post-page-body li {
+  margin-left: 35px;
+  margin-bottom: 14px;
+}
+
 @media only screen and (max-width: 600px) {
   .latest-post-title {
     font-size: 30px;
@@ -98,5 +135,12 @@ body {
 
   .latest-post-body {
     line-height: 23px;
+  }
+
+  .post-page-title {
+    font-size: 30px;
+    line-height: 37px;
+    margin-top: 2px;
+    margin-bottom: 10px;
   }
 }
