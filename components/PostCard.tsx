@@ -6,7 +6,7 @@ const PostCard = ({ title, subtitle, slug, thumbnail }) => {
       <img
         src={thumbnail}
         alt={title}
-        className="rounded-l-md md:rounded-bl-none md:rounded-t-md w-[45%] md:w-[100%]"
+        className="rounded-l-md object-center object-cover md:rounded-bl-none md:rounded-t-md w-[45%] md:w-[100%]"
       />
       <Link href={slug}>
         <h1 className="post-card-title mb-2">{title}</h1>
