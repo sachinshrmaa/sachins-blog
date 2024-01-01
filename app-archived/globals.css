@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lusitana&family=Plus+Jakarta+Sans:wght@300&family=Source+Serif+Pro:wght@300;700;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+}
+
+#logo {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #2f4e80;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.page-heading {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Latest post */
+
+.latest-post-title {
+  font-family: "Source Serif Pro", serif;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 52px;
+  margin-top: 14px;
+  margin-bottom: 20px;
+}
+
+.latest-post-body {
+  font-family: "Lusitana", serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.latest-post-meta {
+  font-size: 14px;
+  color: rgb(129, 129, 129);
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+/* Post Card */
+
+.post-card-title {
+  font-family: "Source Serif Pro", serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.post-card-body {
+  font-family: "Lusitana", serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  margin-bottom: 5px;
+}
+
+.post-card-meta {
+  font-size: 13px;
+  color: rgb(129, 129, 129);
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+/* Post page */
+
+.post-page-title {
+  font-size: 45px;
+  line-height: 54px;
+  font-weight: 900;
+  font-family: "Source Serif Pro", serif;
+  margin: 15px 0;
+}
+
+.post-page-body {
+  font-family: "Lusitana", serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.post-page-body p {
+  margin: 20px 0;
+}
+
+.post-page-body img {
+  margin: auto;
+}
+
+.post-page-body h2 {
+  margin: 25px 0;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.post-page-body h3 {
+  margin: 22px 0;
+  font-weight: 600;
+  font-size: 21px;
+}
+
+.post-page-body a {
+  color: blue;
+}
+
+.post-page-body a:hover {
+  text-decoration-line: underline;
+}
+
+.post-page-body ul {
+  list-style-type: circle;
+}
+
+.post-page-body li {
+  margin-left: 35px;
+  margin-bottom: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+  .latest-post-title {
+    font-size: 30px;
+    line-height: 37px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+  }
+
+  .latest-post-body {
+    line-height: 23px;
+  }
+
+  .post-page-title {
+    font-size: 30px;
+    line-height: 37px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+  }
+}
